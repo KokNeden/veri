@@ -1,0 +1,13 @@
+{
+  "surum": 1,
+  "dosyalar": {
+    "kisi-basi-gelir-turkiye.csv": {
+      "kaynak": "Dünya Bankası, World Development Indicators: NY.GDP.PCAP.CD ve NY.GDP.PCAP.KD (Kaynaklar 6).",
+      "sutunlar": {
+        "yil": "Yıl.",
+        "cari_abd_dolari": "Kişi başı GSYH, cari ABD doları (kur değişimlerini içerir).",
+        "sabit_2015_abd_dolari": "Kişi başı GSYH, 2015 sabit fiyatlarıyla ABD doları (fiyat ve kur etkisi arındırılmış)."
+      }
+    }
+  }
+}

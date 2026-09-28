@@ -17,7 +17,10 @@ DUZELTMELER.md       yayından sonra düzeltilen her rakam, eski ve yeni haliyle
 | No | Video | Klasör |
 |---|---|---|
 <!-- videolar -->
-| — | Henüz yayımlanan video yok | — |
+| 01 | Manifesto: Plan var, saha? | [`videolar/01-manifesto/`](videolar/01-manifesto/) |
+| 02 | Yalnız ekonomi değil: güven, kutuplaşma, okuma kültürü | [`videolar/02-kapsam/`](videolar/02-kapsam/) |
+| 03 | Türkiye'nin 24 kronik sorunu: 12 kalkınma planı ne hedefledi, ne oldu? | [`videolar/03-kronik-sorunlar/`](videolar/03-kronik-sorunlar/) |
+| 04 | Türkiye'nin 24 kronik sorunundan hangisi kök neden? İlk sıralama | [`videolar/04-siralama/`](videolar/04-siralama/) |
 
 ## Kurallar
 

@@ -1,0 +1,61 @@
+gosterge_id,sorun_id,rol,ad,kaynak,kod,birim,yon,not
+G001,S01,ana,PISA ortalama puanı (mat+okuma+fen),manuel_pisa,PISA_MEAN,puan,1,2003+; OECD PISA Data Explorer
+G002,S01,ikincil,İnsan sermayesi endeksi (eğitim yılı ve getiri),pwt,hc,endeks,1,1950+; kronik testi için uzun seri
+G003,S01,ikincil,Eğitim harcaması (GSYH %),wdi,SE.XPD.TOTL.GD.ZS,%,1,
+G004,S02,ana,Ne eğitimde ne istihdamda gençler (NEET),wdi,SL.UEM.NEET.ZS,% 15-24,-1,
+G005,S02,ikincil,Genç işsizlik oranı,wdi,SL.UEM.1524.ZS,% 15-24,-1,ILO modellenmiş
+G006,S03,ana,Yükseköğrenimli göç oranı (OECD DIOC),manuel_dioc,DIOC_TERT_EMIG,%,-1,Yalnızca sayım yılları; veri zayıf
+G007,S04,ana,Kadın iş gücüne katılım oranı,wdi,SL.TLF.CACT.FE.ZS,% 15+,1,1990+; öncesi TÜİK sayım/HHİA
+G008,S04,ikincil,Kadın ücretsiz aile işçisi payı,wdi,SL.FAM.WORK.FE.ZS,% kadın istihdamı,-1,
+G009,S05,ana,Toplam doğurganlık hızı,wdi,SP.DYN.TFRT.IN,çocuk/kadın,0,Yön normatif değil; 2.1 eşiği referans
+G010,S05,ikincil,65+ nüfus payı,wdi,SP.POP.65UP.TO.ZS,%,0,
+G011,S05,ikincil,Yaşlı bağımlılık oranı,wdi,SP.POP.DPND.OL,%,-1,
+G012,S06,ana,Hukukun üstünlüğü (WGI),wgi,GOV_WGI_RL.EST,-2.5..2.5,1,1996+
+G013,S06,ikincil,Hukukun üstünlüğü endeksi (V-Dem),vdem,v2x_rule,0..1,1,1900+; kronik testi için
+G014,S06,ikincil,Yüksek mahkeme bağımsızlığı (V-Dem),vdem,v2juhcind,z,1,1900+
+G015,S07,ana,Hükümet etkinliği (WGI),wgi,GOV_WGI_GE.EST,-2.5..2.5,1,Politika uygulama kalitesi vekili
+G016,S07,ikincil,Kalkınma planı hedef gerçekleşme oranı,manuel_sbb,PLAN_HEDEF,%,1,Kalkınma planlarından elle derlenecek
+G017,S08,ana,Yerel yönetim harcamalarının genel devlet içindeki payı,manuel_oecd,SNG_EXP_SHARE,%,1,OECD Fiscal Decentralisation / SNG-WOFI
+G018,S09,ana,Tarafsız ve kurallı kamu yönetimi (V-Dem),vdem,v2clrspct,z,1,1900+
+G019,S09,ikincil,Yolsuzluk kontrolü (WGI),wgi,GOV_WGI_CC.EST,-2.5..2.5,1,
+G020,S10,ana,Kayıt dışı istihdam oranı,manuel_tuik,KAYITDISI_IST,%,-1,TÜİK HİA; 1988+
+G021,S10,ikincil,Kendi hesabına + ücretsiz aile işçisi payı,wdi,SL.EMP.VULN.ZS,% istihdam,-1,Kırılgan istihdam; vekil
+G022,S10,ikincil,Vergi geliri (GSYH %),wdi,GC.TAX.TOTL.GD.ZS,%,1,
+G023,S11,ana,"""İnsanların çoğuna güvenilir"" diyenlerin payı",manuel_wvs,WVS_TRUST,%,1,WVS/EVS dalgaları 1990+
+G024,S12,ana,İfade özgürlüğü ve alternatif bilgi kaynakları (V-Dem),vdem,v2x_freexp_altinf,0..1,1,1900+
+G025,S12,ikincil,Medyaya hükümet sansürü (V-Dem),vdem,v2mecenefm,z,1,Yüksek = az sansür
+G026,S13,ana,Tarımda çalışan başına katma değer (2015 $),wdi,NV.AGR.EMPL.KD,USD,1,1991+
+G027,S13,ikincil,Tarımda istihdam payı,wdi,SL.AGR.EMPL.ZS,%,-1,
+G028,S13,ikincil,Ortalama işletme büyüklüğü (hektar),manuel_tuik,ARAZI_ORT,ha,1,Tarım sayımları 1927 1950 1963 1970 1980 1991 2001
+G029,S14,ikincil,Yüksek teknoloji ihracatı (imalat ihracatı %),wdi,TX.VAL.TECH.MF.ZS,%,1,
+G030,S14,ikincil,İhracatın ithalat içeriği (OECD TiVA),manuel_oecd,TIVA_FVA,%,-1,
+G031,S14,ikincil,İmalat sanayi katma değeri (GSYH %),wdi,NV.IND.MANF.ZS,%,0,
+G032,S15,ana,Ar-Ge harcaması (GSYH %),wdi,GB.XPD.RSDV.GD.ZS,%,1,
+G033,S15,ikincil,Yerleşik patent başvurusu,wdi,IP.PAT.RESD,adet,1,Nüfusa bölünecek
+G034,S15,ikincil,Milyon kişi başına araştırmacı,wdi,SP.POP.SCIE.RD.P6,kişi,1,
+G035,S16,ana,Ruhsatsız/gecekondu konut payı,manuel_lit,GECEKONDU,%,-1,Resmî seri yok; literatür tahminleri
+G036,S16,ikincil,Kentli nüfus payı,wdi,SP.URB.TOTL.IN.ZS,%,0,Bağlam
+G037,S17,ana,Afetlerde kayıp (ölüm; 1900+),manuel_emdat,EMDAT_DEATHS,kişi,-1,EM-DAT
+G038,S18,ana,Net enerji ithalatı (enerji kullanımı %),wdi,EG.IMP.CONS.ZS,%,-1,
+G039,S19,ana,Su stresi (tatlı su çekimi / mevcut kaynak),wdi,ER.H2O.FWST.ZS,%,-1,
+G040,S19,ikincil,Kişi başı yenilenebilir iç tatlı su,wdi,ER.H2O.INTR.PC,m3,1,
+G041,S20,ana,İl bazında kişi başı GSYH değişim katsayısı,manuel_tuik,IL_GSYH_CV,oran,-1,TÜİK il GSYH 2004+; öncesi DPT çalışmaları
+G042,S21,ana,TÜFE enflasyonu,wdi,FP.CPI.TOTL.ZG,%,-1,
+G043,S21,ikincil,GSYH deflatörü,wdi,NY.GDP.DEFL.KD.ZG,%,-1,
+G044,S22,ana,Brüt yurt içi tasarruf (GSYH %),wdi,NY.GDS.TOTL.ZS,%,1,
+G045,S22,ikincil,Cari işlemler dengesi (GSYH %),wdi,BN.CAB.XOKA.GD.ZS,%,1,
+G046,S23,ana,Çalışan başına GSYH (2021 PPP $),wdi,SL.GDP.PCAP.EM.KD,USD,1,
+G047,S23,ikincil,Toplam faktör verimliliği (2017=1),pwt,rtfpna,endeks,1,1950+
+G048,SONUC,sonuc,Kişi başı GSYH (Maddison 2011$),maddison,gdppc,USD,1,1820+
+G049,SONUC,sonuc,Kişi başı GSYH (PPP sabit),wdi,NY.GDP.PCAP.PP.KD,USD,1,
+G050,SONUC,sonuc,Gini katsayısı,wdi,SI.POV.GINI,0..100,-1,
+G051,COZULEN,cozulen,Bebek ölüm hızı,wdi,SP.DYN.IMRT.IN,binde,-1,
+G052,COZULEN,cozulen,Doğuşta yaşam beklentisi,wdi,SP.DYN.LE00.IN,yıl,1,
+G053,COZULEN,cozulen,Ortaöğretim brüt okullaşma,wdi,SE.SEC.ENRR,%,1,
+G054,COZULEN,cozulen,Yükseköğretim brüt okullaşma,wdi,SE.TER.ENRR,%,1,
+G055,COZULEN,cozulen,Elektriğe erişim,wdi,EG.ELC.ACCS.ZS,%,1,
+G056,COZULEN,cozulen,Yetişkin okuryazarlık,wdi,SE.ADT.LITR.ZS,%,1,
+G057,COZULEN,cozulen,Anne ölüm oranı,wdi,SH.STA.MMRT,100 bin doğumda,-1,
+G058,COZULEN,cozulen,Temel içme suyuna erişim,wdi,SH.H2O.BASW.ZS,%,1,
+G059,S12,ikincil,Söz hakkı ve hesap verebilirlik (WGI),wgi,GOV_WGI_VA.EST,-2.5..2.5,1,V-Dem yokken S12 vekili; V4'te eklendi
+G060,S14,ana,Orta ve yüksek teknoloji ihracatı (imalat ihracatı %),wdi,TX.MNF.TECH.ZS.UN,%,1,1990+; A6 kararı (26.09.2026)

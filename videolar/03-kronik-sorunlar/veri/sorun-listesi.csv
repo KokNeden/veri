@@ -1,0 +1,26 @@
+sorun_id,sutun,ad,kisa_ad,ana_olcum,yedek_olcum,etki_duzey,etki_gerekce,not
+S01,İnsan,Eğitimin niteliği,Eğitim niteliği,G001,,3,"Tüm öğrenciler, dolayısıyla gelecekteki tüm işgücü",
+S02,İnsan,Beceri uyumsuzluğu ve mesleki eğitim,Beceri uyumsuzluğu,G004,G005,2,"Gençler ve yeni mezunlar: geniş bir kesim, ama tüm nüfus değil",
+S03,İnsan,Beyin göçü,Beyin göçü,G006,,1,Doğrudan etkilenen: yükseköğrenimli küçük bir grup (dolaylı etkiler matriste),"03'te kronik testini geçmedi (IAB 1980–2010: yükseköğrenimli göç oranı iki dönemde de OECD ortancasının altında; 2010 sonrası ölçülmedi). Listede aday olarak durur, 03 videosunda yok (Berk, 26.09.2026)."
+S04,İnsan,Kadınların iş gücüne düşük katılımı,Kadın istihdamı,G007,G008,2,Çalışma çağındaki kadınlar: nüfusun geniş bir kesimi,
+S05,İnsan,Demografik dönüşüm,Demografik dönüşüm,G009,,3,Yaş yapısı tüm nüfusu ve kamu maliyesini etkiler,
+S06,Kurumlar,Hukukun üstünlüğü ve yargının güvenilirliği ile hızı,Hukuk ve yargı,G012,G013,3,Kurumsal çerçeve: tüm yurttaşlar ve firmalar,
+S07,Kurumlar,Plan-uygulama kopukluğu ve politika sürekliliği,Plan-uygulama kopukluğu,G016 Kalkınma planı hedef gerçekleşme oranı (derlenecek),,3,Tüm kamu politikaları,Ana gösterge değişti (A6)
+S08,Kurumlar,Aşırı merkeziyetçilik ve yerel kapasite,Merkeziyetçilik,G017,,3,Tüm yerel hizmetler,
+S09,Kurumlar,Kurallı ve tarafsız kamu yönetimi,Kurallı ve tarafsız kamu yönetimi,V-Dem v2clrspct (1789–2025),"V-Dem v2x_corr; WGI hükümet etkinliği (GE.EST); atamada liyakat v2stcritrecadm (2010 sonrası düşüş, ayrıca)",3,Tüm kamu hizmetleri,"Ad ve tanım değişti (26.09.2026, A1)"
+S10,Kurumlar,Kayıt dışılık,Kayıt dışılık,G020,G021,2,Kayıt dışı çalışanlar ve vergi tabanı: geniş kesim,
+S11,Toplum ve kültür,Toplumsal güven,Toplumsal güven,G023,,3,Tüm toplumsal ve ekonomik ilişkiler,"Kurumlar sütunundan taşındı (26.09.2026, K2)"
+S12,Kurumlar,Medya ve bilgi ekosistemi (aday),Medya ekosistemi,G024,G059,3,Tüm kamusal tartışma,
+S13,Üretim,Tarımda verimlilik ve parçalı arazi,Tarım verimliliği,G026,,2,"Tarım çalışanları, kırsal nüfus ve gıda fiyatları",
+S14,Üretim,Sanayinin teknoloji düzeyi ve ithal ara malı bağımlılığı,Sanayi teknolojisi,TX.MNF.TECH.ZS.UN Orta ve yüksek teknoloji ihracatı payı (1990+),,2,İmalat sanayi: büyük ama tek bir sektör,Ana gösterge değişti (A6)
+S15,Teknoloji,Ar-Ge'yi ürüne dönüştürme kapasitesi,Ar-Ge'yi ürüne dönüştürme,G032,G034,1,Doğrudan: Ar-Ge yapan firmalar ve araştırmacılar,
+S16,Mekân ve kaynak,Plansız kentleşme,Plansız kentleşme,G035,,2,Kentli nüfusun ruhsatsız/plansız alanlarda yaşayan kesimi,
+S17,Mekân ve kaynak,Deprem ve afet riski yönetimi,Afet riski,G037,,3,Büyük nüfus merkezleri yüksek deprem tehlikesi altında (oran doğrulanacak),
+S18,Mekân ve kaynak,Enerjide dışa bağımlılık,Enerji bağımlılığı,G038,,3,Makro: fiyatlar ve cari denge üzerinden tüm ekonomi,
+S19,Mekân ve kaynak,Su yönetimi ve kuraklık,Su ve kuraklık,G039,G040,2,Tarım ve kuraklık riski taşıyan havzalar,
+S20,Mekân ve kaynak,Bölgesel eşitsizlik,Bölgesel eşitsizlik,G041,,2,Geride kalan bölgelerde yaşayanlar,
+S21,Ekonomi,Kronik enflasyon ve makroekonomik istikrarsızlık,Enflasyon ve istikrarsızlık,G042,G043,3,Tüm nüfus,
+S22,Ekonomi,Dış finansman bağımlılığı,Dış finansman bağımlılığı,G045 Cari işlemler dengesi (GSYH %),G044 Brüt yurt içi tasarruf,3,Makro: tüm ekonomi,"Ad ve ana gösterge değişti (26.09.2026, A3)"
+S24,Toplum ve kültür,Siyasi kutuplaşma,Siyasi kutuplaşma,V-Dem v2cacamps (1900–2025),"V-Dem v2smpolsoc (2000–2025); TurkuazLab sosyal mesafe (2017, 2020)",3,Tüm toplumsal ve siyasi ilişkiler (taslak),"Yeni (26.09.2026, K1)"
+S25,Toplum ve kültür,"Din, dil ve etnik köken ekseninde ayrışma",Kimlik temelli ayrışma,V-Dem v2xpe_exlsocgr (1900–2023),WVS/EVS komşuluk soruları (Türkiye dalgaları teyit edilecek),3,Gruplar arası ilişkiler ve eşit muamele: geniş kesim (taslak),"Yeni (26.09.2026, K1)"
+S26,Toplum ve kültür,"Okuma, düşünme ve tartışma kültürünün zayıflığı (aday)",Okuma ve tartışma kültürü,V-Dem v2dlcountr (1900–2025),"OECD PIAAC okuma (2014–15); TÜİK Zaman Kullanım (2006, 2014–15)",3,Tüm kamusal tartışma ve yetişkin öğrenmesi (taslak),"Yeni, aday: okuma ayağı dört dönemde ölçülemiyor (26.09.2026, K1, K3)"
