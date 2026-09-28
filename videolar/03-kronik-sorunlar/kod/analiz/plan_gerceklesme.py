@@ -111,6 +111,7 @@ ARASTIRMA_DISI = {
     (6, "S14", "İmalat sanayii ihracatının toplam ihracat içindeki payı"): "sonuç sınıflamaya göre tersine dönüyor (DPT 92,9 hedef üstü, TÜİK ISIC Rev.3 85,7 hedef altı)",
     (10, "S22", "Cari işlemler dengesi"): "dolar değeri revizyon öncesi seriden (−27,0; revize seride −14,6); panodaki oran satırı (WDI) revize seriyle aynı olguyu veriyor",
     (10, "S05", "Nüfus artış hızı"): "plan tanım yazmıyor; göç dahil artış (binde 14,7) hedefin üstünde, doğal artış (yaklaşık binde 10) altında: sonuç tanıma göre tersine dönüyor",
+    (10, "S17", "bütünleşik afet tehlike haritası"): "tamamlanan haritalar yalnız heyelan, kaya düşmesi ve çığı kapsıyor; 'bütünleşik' tüm afet türleri diye okunursa hedef tutmamış, sonuç okumaya göre tersine dönüyor",
 }
 YAKINA_DUSUR = {
     (3, "S13", "Tarım sektörü katma değeri büyümesi"): "revize seri (SBB) aynı dönem için %1,2 veriyor",
