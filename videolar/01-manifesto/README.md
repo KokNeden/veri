@@ -1,6 +1,6 @@
 # 01 · Manifesto: Plan var, saha?
 
-Video yakında YouTube’da. · [Sitedeki sayfa](https://kokneden.org/videolar/01-manifesto/) · Sürüm: v1.0 · Güncelleme: 26 Eylül 2026
+Video ve sayfası yakında yayında. · Sürüm: v1.0 · Güncelleme: 26 Eylül 2026
 
 ## Özet
 
@@ -41,7 +41,8 @@ Bilmediğimiz bir çalışma varsa yazın; buraya ekleyelim.
 
 ## Sınırlılıklar
 
-- **Seslendirme yapay zekâ ile üretilmiştir:** metin Berk Can'a aittir, ses bir ses üretim aracıyla oluşturulmuştur. Görüntüler koddan çizilmiştir; video, gerçek kamera görüntüsü içermez.
+- **Nasıl yapıldı:** Kaynak tarama, veri işleme ve görsellerin kodu yapay zekâ araçları desteğiyle yapıldı. Rakamlar, sayfadaki tabloda kaynaklarına karşı kontrol edildi; ayrı kaynak testi 03. videodan itibaren uygulanıyor. Seslendirme, Berk Can'ın sesinden (ses örneği) yapay zekâyla üretildi. Uzman okuması: henüz yok. Ayrıntı: [Nerede duruyoruz?](/nerede-duruyoruz/) Görüntüler koddan çizilmiştir; video, gerçek kamera görüntüsü içermez.
+- Videoda anlatılan uzman okuması henüz başlamadı; uzman ağı kuruluyor. Bu video uzman okumasından geçmedi.
 - Videodaki Resmî Gazete künyesi taranmış bir görüntü değil, **temsilî yeniden çizimdir**.
 - Yol haritası bölümündeki sorun listesi, ilişki matrisi ve sıralama çubukları **temsilîdir**; gerçek sonuç değildir.
 - "Bütün alanları aynı ölçüyle yan yana koyan bir yer bulmak zor" ifadesi, kısa bir literatür taramasına dayanan bir değerlendirmedir (bkz. İlgili çalışmalar). Tarama kapsamlı değildir; bildiğiniz bir çalışma varsa yazın.

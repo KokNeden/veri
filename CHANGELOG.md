@@ -2,6 +2,10 @@
 
 Her değişiklik burada. Biçim: tarih ve etiket başlığı, altında video klasörü başına bir satır. Veri düzeltmeleri ayrıca [DUZELTMELER.md](DUZELTMELER.md)'de.
 
+## 28.09.2026 · durum notları
+
+- `01`–`04` README: "Nasıl yapıldı" araç beyanı ve "Uzman okuması: henüz yok" durum notları eklendi (sitedeki sayfalarla aynı); henüz yayında olmayan site sayfalarına bağlantı kaldırıldı.
+
 ## 28.09.2026 · atıf
 
 - `CITATION.cff` eklendi: GitHub'daki "Cite this repository" düğmesi APA ve BibTeX üretir. Atıf biçimleri README'de.
