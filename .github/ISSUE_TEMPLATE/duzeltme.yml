@@ -1,0 +1,38 @@
+name: Düzeltme bildir
+description: Bir rakamda, kaynakta ya da ifadede hata
+title: "[Düzeltme] "
+labels: ["düzeltme"]
+body:
+  - type: input
+    id: video
+    attributes:
+      label: Video ya da dosya
+      description: "Örn. 04-siralama, veri/sonuclar-v0.2.csv, 12. satır"
+    validations:
+      required: true
+  - type: textarea
+    id: hata
+    attributes:
+      label: Yanlış olan
+      description: Dosyada ya da videoda ne yazıyor?
+    validations:
+      required: true
+  - type: textarea
+    id: dogru
+    attributes:
+      label: Doğrusu
+      description: Doğrusu ne olmalı?
+    validations:
+      required: true
+  - type: input
+    id: kaynak
+    attributes:
+      label: Kaynak
+      description: Bağlantı, sayfa ya da tablo numarası
+    validations:
+      required: true
+  - type: input
+    id: ad
+    attributes:
+      label: Düzeltmeler sayfasında adınız görünsün mü?
+      description: Boş bırakırsanız adınız yazılmaz.
