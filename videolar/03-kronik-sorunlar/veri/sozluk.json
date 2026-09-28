@@ -111,9 +111,10 @@
         "eslesme": "ayni_olcu = tanım ve kapsam aynı; yakin_olcu = aynı kavram, küçük tanım ya da kaynak farkı var (not sütununda).",
         "kaynak": "Gerçekleşme değerinin kaynağı.",
         "not": "Ölçü farkı, ortalama ve işaret açıklamaları.",
-        "alinti": "Gerçekleşmenin kaynağından kısa alıntı (tablo satırlarında sütun başlıkları parantez içinde)."
+        "alinti": "Gerçekleşmenin kaynağından kısa alıntı (tablo satırlarında sütun başlıkları parantez içinde).",
+        "nitelik": "Planın yazdığı sayının niteliği. hedef: planın koyduğu hedef; tahmin: planın tahmin, beklenti, projeksiyon ya da ihtiyaç tespiti olarak yazdığı sayı (fark öngörünün isabetini gösterir, 'hedef tuttu/tutmadı' diye okunmaz). Nitelik plan metnindeki tablo başlığından ve cümleden okunur."
       },
-      "aciklama": "Plan hedefleri ve aynı ya da yakın ölçüyle gerçekleşmeleri: tarım, sulama, içme suyu, doğurganlık, kadın işgücü, genç işsizliği, Ar-Ge, patent, imalat payı, cari denge, enflasyon."
+      "aciklama": "Kalkınma planlarındaki sayısal hedefler ve aynı ya da yakın ölçüyle gerçekleşmeleri: 168 kayıt (eğitim, enerji, vergi, konut, sanayi, dış finansman, Ar-Ge, demografi, tarım ve su, medya, bölgesel, yerel yönetim, afet). 13 kayıt planın hedefi değil tahminidir (nitelik sütunu)."
     }
   }
 }
