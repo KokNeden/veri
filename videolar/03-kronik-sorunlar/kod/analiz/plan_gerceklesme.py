@@ -37,6 +37,9 @@ KAYNAK = {
     "FP.CPI.TOTL.ZG": "Dünya Bankası WDI, FP.CPI.TOTL.ZG (TÜİK TÜFE)",
 }
 
+AR_GE_NOT = ("Dünya Bankası serisi, hedef yazıldıktan sonra revize edilen TÜİK değerlerini veriyor "
+             "(ör. XI. Plan'ın 2017 başlangıcı 0,96, revize seride 1,18); sonuç değişmiyor.")
+
 # (plan, sorun, göstergenin başı, seri, yıllar, eşleşme, not)
 # Birden çok yıl verilirse gerçekleşme o yılların ortalamasıdır.
 # Notu "AÇIK " ile başlayan satırlarda gerçekleşmenin işareti çevrilir (plan açığı artı sayıyla yazmış).
@@ -52,10 +55,10 @@ ESLEME = [
     (11, "S04", "İşgücüne katılma oranı, kadın", "SL.TLF.CACT.FE.ZS", [2023], "yakin_olcu", "ILO modellenmiş tahmin; TÜİK değeri biraz farklı olabilir."),
     (10, "S02", "Gençlerde işsizlik oranı", "SL.UEM.1524.ZS", [2018], "yakin_olcu", "15–24 yaş, ILO modellenmiş tahmin."),
     (11, "S02", "İşsizlik oranı, genç nüfus", "SL.UEM.1524.ZS", [2023], "yakin_olcu", "15–24 yaş, ILO modellenmiş tahmin."),
-    (8, "S15", "Ar-Ge harcaması / GSYİH", "GB.XPD.RSDV.GD.ZS", [2005], "ayni_olcu", ""),
-    (9, "S15", "Ar-Ge harcaması / GSYH", "GB.XPD.RSDV.GD.ZS", [2013], "ayni_olcu", ""),
-    (10, "S15", "Ar-Ge harcaması / GSYH", "GB.XPD.RSDV.GD.ZS", [2018], "ayni_olcu", ""),
-    (11, "S15", "Ar-Ge harcaması / GSYH", "GB.XPD.RSDV.GD.ZS", [2023], "ayni_olcu", ""),
+    (8, "S15", "Ar-Ge harcaması / GSYİH", "GB.XPD.RSDV.GD.ZS", [2005], "yakin_olcu", AR_GE_NOT),
+    (9, "S15", "Ar-Ge harcaması / GSYH", "GB.XPD.RSDV.GD.ZS", [2013], "yakin_olcu", AR_GE_NOT),
+    (10, "S15", "Ar-Ge harcaması / GSYH", "GB.XPD.RSDV.GD.ZS", [2018], "yakin_olcu", AR_GE_NOT),
+    (11, "S15", "Ar-Ge harcaması / GSYH", "GB.XPD.RSDV.GD.ZS", [2023], "yakin_olcu", AR_GE_NOT),
     (10, "S15", "Yerli patent başvuru sayısı", "IP.PAT.RESD", [2018], "ayni_olcu", ""),
     (10, "S14", "İmalat sanayii / GSYH (cari)", "NV.IND.MANF.ZS", [2018], "ayni_olcu", ""),
     (11, "S14", "İmalat sanayii / GSYH (cari)", "NV.IND.MANF.ZS", [2023], "ayni_olcu", ""),
@@ -119,6 +122,25 @@ YAKINA_DUSUR = {
     (11, "S13", "Tescili tamamlanan arazi toplulaştırma"): "2023 değeri gerçekleşme tahmini",
     (11, "S19", "sulama oranı"): "2023 değeri gerçekleşme tahmini",
     (7, "S10", "Vergi gelirlerinin GSMH"): "oran tablodan servet vergileri çıkarılarak hesaplandı; 2002 Programı aynı yıl için 24,4 veriyor",
+}
+
+
+# Planın hedef değil tahmin, beklenti, projeksiyon ya da ihtiyaç tespiti olarak yazdığı satırlar.
+# Çıktıda nitelik = "tahmin"; sitede ayrı etiketle gösterilir (fark "hedef tuttu/tutmadı" diye okunmasın).
+TAHMIN = {
+    (4, "S05", "Toplam doğurganlık oranı (uzun dönem)"): "uzun dönem projeksiyon varsayımı",
+    (8, "S05", "Toplam doğurganlık hızı (tahmin)"): "planda tahmin",
+    (6, "S05", "Nüfus artış hızı (beklenen)"): "planda beklenti",
+    (8, "S05", "Yıllık nüfus artış hızı (tahmin)"): "planda tahmin",
+    (9, "S05", "Annual natural increase"): "plan projeksiyonu",
+    (9, "S08", "mahalli idare sabit sermaye yatırımı"): "plan projeksiyonu",
+    (3, "S12", "televizyon yayın alanındaki nüfus oranı"): "planda tahmin",
+    (2, "S16", "şehir konutu ihtiyacı"): "ihtiyaç tahmini, üretim hedefi değil",
+    (2, "S18", "Ham petrol talebi"): "talep tahmini",
+    (6, "S18", "Birincil enerji talebi"): "talep tahmini",
+    (8, "S18", "Birincil enerji tüketimi"): "tüketim projeksiyonu",
+    (10, "S18", "Enerji ithalatı"): "ithalat projeksiyonu",
+    (10, "S22", "Cari işlemler dengesi / GSYH"): "makroekonomik projeksiyon",
 }
 
 
@@ -196,6 +218,7 @@ for dosya in sorted(glob.glob("veri/gerceklesme_arastirma_*.csv")):
         })
 for s_ in satirlar:
     s_.setdefault("alinti", "")
+    s_["nitelik"] = "tahmin" if anahtar_bul(TAHMIN, int(s_["plan_no"]), s_["sorun_id"], s_["gosterge"]) else "hedef"
 satirlar.sort(key=lambda r: (r["sorun_id"], int(r["plan_no"])))
 with open(CIKTI, "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=list(satirlar[0].keys()))
