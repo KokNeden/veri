@@ -4,7 +4,7 @@ Her değişiklik burada. Biçim: tarih ve etiket başlığı, altında video kla
 
 ## 28.09.2026 · atıf
 
-- `CITATION.cff` eklendi: GitHub'daki "Cite this repository" düğmesi APA ve BibTeX üretir. Atıf rehberi: https://kokneden.org/atif/
+- `CITATION.cff` eklendi: GitHub'daki "Cite this repository" düğmesi APA ve BibTeX üretir. Atıf biçimleri README'de.
 
 ## 28.09.2026 · 03-v1.3
 
