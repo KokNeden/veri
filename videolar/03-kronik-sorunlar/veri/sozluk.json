@@ -1,0 +1,119 @@
+{
+  "surum": 1,
+  "dosyalar": {
+    "plan-hedefleri.csv": {
+      "kaynak": "DPT/SBB Kalkınma Planları I–XII (Kaynaklar 1). Her satır plan metninden alıntıyla gösterilir.",
+      "not": "hedef_degeri planın yazdığı sayıdır; sayının hedef mi öngörü mü olduğu gosterge ve alinti sütunlarından okunmalıdır. Plan metinlerindeki OCR hataları alıntılarda korunmuştur.",
+      "sutunlar": {
+        "sorun_id": "Sorun numarası (S01–S26; bkz. sorun-listesi.csv).",
+        "plan_no": "Kalkınma planı numarası (1–12).",
+        "plan_donemi": "Planın kapsadığı yıllar.",
+        "gosterge": "Hedefin ya da ifadenin konusu.",
+        "hedef_degeri": "Planda yazan sayı; sayısal hedef yoksa boş.",
+        "birim": "hedef_degeri'nin birimi.",
+        "hedef_yili": "Hedefin ulaşılması beklenen yıl ya da dönem.",
+        "baslangic_degeri": "Plandaki başlangıç değeri (varsa).",
+        "baslangic_yili": "Başlangıç değerinin yılı (varsa).",
+        "alinti": "Plan metninden birebir alıntı.",
+        "dosya": "Alıntının alındığı plan metni dosyası.",
+        "pdf_sayfa": "Plan PDF'indeki sayfa.",
+        "dogrulama": "Alıntının plan metnine karşı otomatik kontrolü: tam = aynen bulundu; kismi = alıntının en az yarısı bulundu; tablo_sayilari = tablo satırının sayılarının en az %80'i sayfada bulundu; hedef_yok = planda bu konuda ölçülebilir hedef yok; bulunamadi = otomatik kontrolde bulunamadı.",
+        "dogrulama_sayfa": "Kontrolde eşleşmenin bulunduğu sayfa."
+      }
+    },
+    "enflasyon-hedef-gerceklesme.csv": {
+      "kaynak": "Kalkınma planları; TÜİK İstatistik Göstergeler 1923–2011 Tablo 17.15; TCMB tüketici fiyatları (Kaynaklar 1, 3, 4).",
+      "sutunlar": {
+        "plan_no": "Kalkınma planı numarası.",
+        "hedef_gostergesi": "Planın hedef ya da öngörü koyduğu fiyat göstergesi.",
+        "hedef_yili": "Hedefin yılı.",
+        "hedef": "Plandaki değer (%).",
+        "gerceklesme": "Aynı yıl gerçekleşen değer (%).",
+        "gerceklesme_olcusu": "Gerçekleşme için kullanılan ölçü.",
+        "kaynak": "Gerçekleşmenin kaynağı.",
+        "not": "Ölçü farkı ve benzeri açıklamalar."
+      }
+    },
+    "dunya-bankasi-secilmis.csv": {
+      "kaynak": "Dünya Bankası, World Development Indicators (Kaynaklar 5).",
+      "not": "OECD ortancası bugünkü üyelerle, Türkiye hariç, en az 20 üyede veri olan yıllar için hesaplanmıştır.",
+      "sutunlar": {
+        "gosterge": "Gösterge: dogurganlik (kadın başına doğum), bebek_olum_binde (bin canlı doğumda), arge_gsyh (Ar-Ge harcaması, GSYH %), cari_denge_gsyh (cari işlemler dengesi, GSYH %), net_enerji_ithalati (enerji kullanımının %'si).",
+        "wdi_kodu": "Dünya Bankası gösterge kodu.",
+        "ulke": "TUR = Türkiye; OECD_MED = OECD ortancası (Türkiye hariç).",
+        "yil": "Yıl.",
+        "deger": "Göstergenin değeri (birim gosterge sütununda)."
+      }
+    },
+    "vdem-donem-karsilastirmasi.csv": {
+      "kaynak": "V-Dem veri seti v16 (Kaynaklar 6). Karşılaştırma seti: Güney Kore, İspanya, Portekiz, Yunanistan, Polonya, Meksika, Malezya.",
+      "not": "V-Dem uzman kodlamasına dayanır; dönem ortalaması kaba bir özettir.",
+      "sutunlar": {
+        "sorun": "Sorun numarası.",
+        "degisken": "V-Dem değişken kodu.",
+        "ad": "Değişkenin Türkçe adı.",
+        "donem": "Sabit dönem (1923–1950, 1950–1980, 1980–2002, 2002 sonrası).",
+        "turkiye": "Türkiye'nin dönem ortalaması (V-Dem ölçeği).",
+        "set_ortancasi": "Karşılaştırma setinin dönem ortancası.",
+        "oecd_ortancasi": "OECD ortancası (Türkiye hariç).",
+        "sorun_yonunde": "1: Türkiye bu dönemde OECD ortancasından sorun yönünde ayrışıyor (kronik testinde sayılır); 0: ayrışmıyor."
+      }
+    },
+    "deprem-olumleri.csv": {
+      "kaynak": "EM-DAT (CRED / UCLouvain), Our World in Data işlemesi; nüfus Our World in Data (Kaynaklar 7).",
+      "not": "2002 sonrası değer nüfus verisinin bittiği yıla göre 28,9 ile 31,9 arasında değişir.",
+      "sutunlar": {
+        "sorun": "Sorun numarası (S17).",
+        "olcu": "Ölçü: yılda milyon kişi başına deprem ölümü.",
+        "donem": "Sabit dönem.",
+        "turkiye": "Türkiye'nin dönem değeri.",
+        "deprem_ulkeleri_ortancasi": "Deprem riski yüksek karşılaştırma ülkelerinin ortancası."
+      }
+    },
+    "beyin-gocu.csv": {
+      "kaynak": "IAB Brain Drain Data, Brücker, Capuano ve Marfouk (2013), 1980–2010 (Kaynaklar 10). Karşılaştırma seti: Güney Kore, İspanya, Portekiz, Yunanistan, Polonya, Meksika, Malezya.",
+      "not": "Veri 2010'da biter; \"2002–2026\" satırı 2002 sonrası dönemin mevcut yıllarının (2005, 2010) özetidir. 2016 sonrası göç dalgası bu veride yoktur.",
+      "sutunlar": {
+        "olcu": "Ölçü: yükseköğrenimli göç oranı (%) ya da seçicilik (yükseköğrenimli göç oranı / toplam göç oranı).",
+        "donem_ya_da_yil": "Dönem özeti ya da tek yıl.",
+        "turkiye": "Türkiye'nin değeri.",
+        "set_ortancasi": "Karşılaştırma setinin ortancası.",
+        "oecd_ortancasi": "OECD ortancası (Türkiye hariç).",
+        "sorun_yonunde": "1: Türkiye bu dönemde OECD ortancasından sorun yönünde ayrışıyor (kronik testinde sayılır); 0: ayrışmıyor. Tek yıl satırlarında boş."
+      }
+    },
+    "sorun-listesi.csv": {
+      "kaynak": "Kök Neden çalışma listesi v0.4.",
+      "sutunlar": {
+        "sorun_id": "Sorun numarası.",
+        "sutun": "Yedi sütundan biri.",
+        "ad": "Sorunun adı.",
+        "kisa_ad": "Grafiklerde kullanılan kısa ad.",
+        "ana_olcum": "Ana ölçüm: Kök Neden gösterge kodu (G…) ya da doğrudan veri kaynağı ve değişkeni.",
+        "yedek_olcum": "Yedek ölçüm (varsa).",
+        "etki_duzey": "Etki alanı: 1 = dar bir kesim, 2 = geniş bir kesim, 3 = tüm nüfus ya da ekonomi (sıralamada kullanılır).",
+        "etki_gerekce": "Etki düzeyinin gerekçesi.",
+        "not": "Listeye giriş, taşıma ve test notları (tarihli)."
+      }
+    },
+    "plan-hedef-gerceklesme.csv": {
+      "kaynak": "Dünya Bankası WDI, TÜİK, TCMB; tarım ve sulama için sonraki kalkınma planlarının metni (sayfa numarasıyla), SBB Ekonomik ve Sosyal Göstergeler, DSİ faaliyet raporları. Betik: 03-kronik-sorunlar/kod/plan_gerceklesme.py.",
+      "not": "Yalnız hedefle aynı ya da yakın ölçünün bulunduğu hedefler alınmıştır; ölçüsü uymayan hedefler dosyada yoktur. \"Açık\" diye yazılan cari açık hedeflerinde gerçekleşme de açık olarak (artı = açık) yazılmıştır.",
+      "sutunlar": {
+        "plan_no": "Kalkınma planı numarası.",
+        "sorun_id": "Sorun numarası.",
+        "gosterge": "Plandaki gösterge (plan-hedefleri.csv ile aynı).",
+        "hedef_degeri": "Planda yazan değer.",
+        "birim": "Birim.",
+        "hedef_yili": "Hedef yılı ya da dönemi.",
+        "gerceklesme": "Gerçekleşen değer (hedefle aynı birim).",
+        "gerceklesme_donemi": "Gerçekleşmenin yılı; aralıksa o yılların ortalaması.",
+        "eslesme": "ayni_olcu = tanım ve kapsam aynı; yakin_olcu = aynı kavram, küçük tanım ya da kaynak farkı var (not sütununda).",
+        "kaynak": "Gerçekleşme değerinin kaynağı.",
+        "not": "Ölçü farkı, ortalama ve işaret açıklamaları.",
+        "alinti": "Gerçekleşmenin kaynağından kısa alıntı (tablo satırlarında sütun başlıkları parantez içinde)."
+      },
+      "aciklama": "Plan hedefleri ve aynı ya da yakın ölçüyle gerçekleşmeleri: tarım, sulama, içme suyu, doğurganlık, kadın işgücü, genç işsizliği, Ar-Ge, patent, imalat payı, cari denge, enflasyon."
+    }
+  }
+}

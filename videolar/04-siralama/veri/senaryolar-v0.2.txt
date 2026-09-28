@@ -1,0 +1,8 @@
+taban (v0.2)                           S06 S09 S12 S24 S07 S25 S01
+(karar sonrası) S09→S07 3→4            S06 S09 S12 S24 S07 S25 S01
+B9 denetim (5 bağ bir puan aşağı)      S06 S09 S12 S24 S07 S25 S01
+B10 eksik bağlar                       S06 S09 S12 S24 S07 S25 S01
+B8 eğitim→kurumlar                     S06 S09 S12 S24 S07 S25 S01
+S12→S24 3→2 (ABD kanıtı)               S06 S09 S12 S24 S07 S25 S01
+S25→S11 3→2                            S06 S09 S12 S24 S07 S25 S01
+yalnız kaynaklı (1–2 sil)              S12 S09 S24 S06 S01 S18 S20

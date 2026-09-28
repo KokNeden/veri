@@ -1,0 +1,29 @@
+{
+  "surum": 1,
+  "dosyalar": {
+    "guven-turkiye.csv": {
+      "kaynak": "Integrated Values Surveys (WVS + EVS), \"Most people can be trusted\"; Our World in Data işlemesi (Kaynaklar 1).",
+      "sutunlar": {
+        "dalga": "Araştırma dalgası numarası.",
+        "donem": "Dalganın saha yılları.",
+        "guvenilebilir_diyenler_yuzde": "\"İnsanların çoğuna güvenilebilir\" diyenlerin oranı (%)."
+      }
+    },
+    "sosyal-mesafe-2020.csv": {
+      "kaynak": "TurkuazLab, Türkiye'de Kutuplaşmanın Boyutları 2020 Araştırması: 4.006 kişi, Kasım–Aralık 2020, yüz yüze (Kaynaklar 2).",
+      "sutunlar": {
+        "ifade": "Katılımcıya sorulan durum; \"o parti\" katılımcının kendisine en uzak hissettiği partidir.",
+        "istemem_yuzde": "Bu durumu istemeyenlerin oranı (%).",
+        "isterim_yuzde": "Bu durumu isteyenlerin oranı (%)."
+      }
+    },
+    "yetiskin-okuma-becerisi.csv": {
+      "kaynak": "OECD (2016), Skills Matter, Türkiye ülke notu; PIAAC 2014–15, 16–65 yaş (Kaynaklar 3). Türkiye 2023 turuna katılmadı.",
+      "sutunlar": {
+        "grup": "Ülke ya da ortalama.",
+        "okuma_puani_ortalama": "Okuma becerisi ortalama puanı.",
+        "olcek_ust_sinir": "Puan ölçeğinin üst sınırı."
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+id,ad,D,R,D+R,D-R,grup,K,ISM katman
+A,Tesisat kaçağı,2.0303,0.0,2.0303,2.0303,neden,1.0,4
+B,Duvarda nem,1.3636,1.0303,2.3939,0.3333,neden,0.6204,3
+C,Küf,0.7273,1.1818,1.9091,-0.4545,sonuç,0.3637,2
+D,Boya dökülmesi,0.0,1.9091,1.9091,-1.9091,sonuç,0.0,1

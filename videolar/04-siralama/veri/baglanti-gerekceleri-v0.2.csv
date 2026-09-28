@@ -1,0 +1,163 @@
+baglanti_id,kaynak,hedef,puan,durum,anahtar,gerekce,kaynakca,doi_url,surum
+S01>S02,S01,S02,3,guclu,WB13;HSWZ17,Temel becerileri zayıf mezunun işgücü piyasasına uyumu düşük; mesleki eğitimin getirisi genel becerilere bağlı ve yaşam boyu azalıyor.,"World Bank (2013). Promoting Excellence in Turkey's Schools. Washington, DC. | Hanushek, E.A., Schwerdt, G., Woessmann, L. & Zhang, L. (2017). General Education, Vocational Education, and Labor-Market Outcomes over the Lifecycle. Journal of Human Resources 52(1):48–87.",hdl:10986/16049 | 10.3368/jhr.52.1.0415-7074R,v0.2
+S01>S15,S01,S15,3,guclu,CL90;GRV04,Ar-Ge'yi ürüne dönüştürmek soğurma kapasitesi ister; bu kapasitenin temeli çalışanların bilgi ve becerisi.,"Cohen, W.M. & Levinthal, D.A. (1990). Absorptive Capacity: A New Perspective on Learning and Innovation. Administrative Science Quarterly 35(1):128–152. | Griffith, R., Redding, S. & Van Reenen, J. (2004). Mapping the Two Faces of R&D: Productivity Growth in a Panel of OECD Industries. Review of Economics and Statistics 86(4):883–895.",10.2307/2393553 | 10.1162/0034653043125194,v0.2
+S01>S14,S01,S14,2,yargi,,Nitelikli işgücü teknoloji yoğun sanayinin ön koşulu; etki büyük ölçüde S02 ve S15 üzerinden dolaylı.,,,v0.2
+S01>S04,S01,S04,2,yargi,IL12,Kadın katılımı eğitim düzeyiyle güçlü ilişkili; kaynak niteliği değil düzeyi ölçtüğü için 2.,"İlkkaracan, İ. (2012). Why so Few Women in the Labor Market in Turkey? Feminist Economics 18(1):1–37.",10.1080/13545701.2011.649358,v0.2
+S01>S20,S01,S20,1,yargi,,Okul niteliğindeki bölgesel farklar eşitsizliği yeniden üretir.,,,v0.2
+S01>S11,S01,S11,1,yargi,,Eğitim düzeyi ve niteliği genelleşmiş güvenle ilişkili.,,,v0.2
+S01>S12,S01,S12,1,yargi,,Medya okuryazarlığı bilgi ekosisteminin talep tarafı.,,,v0.2
+S02>S14,S02,S14,2,yargi,,Ara eleman eksikliği teknoloji yükseltmeyi yavaşlatır.,,,v0.2
+S02>S10,S02,S10,1,yargi,,Kayıtlı işe giremeyen gençler kayıt dışına yönelir.,,,v0.2
+S02>S04,S02,S04,1,yargi,,Genç kadınlar için okul-iş geçişi daha zayıf.,,,v0.2
+S04>S05,S04,S05,2,yargi,BCFF09,Kadın katılımı ve doğurganlık karşılıklı ilişkili.,"Bloom, D.E., Canning, D., Fink, G. & Finlay, J.E. (2009). Fertility, female labor force participation, and the demographic dividend. Journal of Economic Growth 14(2):79–101.",10.1007/s10887-009-9039-9,v0.2
+S04>S10,S04,S10,1,yargi,,Ücretsiz aile işçiliği ve ev eksenli kayıt dışı çalışma.,,,v0.2
+S04>S22,S04,S22,1,yargi,,Tek gelirli hanede tasarruf kapasitesi düşük.,,,v0.2
+S04>S20,S04,S20,1,yargi,,Kadın katılımındaki bölgesel farklar.,,,v0.2
+S05>S22,S05,S22,2,yargi,HIG98,Yaş yapısı tasarruf oranını etkiler (yaşam döngüsü); demografik pencere daralıyor.,"Higgins, M. (1998). Demography, National Savings, and International Capital Flows. International Economic Review 39(2):343–369.",10.2307/2527297,v0.2
+S05>S02,S05,S02,1,yargi,,Genç nüfusun büyüklüğü eğitim-iş uyumunu zorlar.,,,v0.2
+S06>S10,S06,S10,3,guclu,TS09,Kurumsal kaliteye ve hukukun uygulanmasına güven kayıt dışı ekonomiyi küçültüyor.,"Torgler, B. & Schneider, F. (2009). The impact of tax morale and institutional quality on the shadow economy. Journal of Economic Psychology 30(2):228–245.",10.1016/j.joep.2008.08.004,v0.2
+S06>S11,S06,S11,3,guclu,RS08,Tarafsız hukuk ve düzen kurumları genelleşmiş güvenin başlıca kaynağı.,"Rothstein, B. & Stolle, D. (2008). The State and Social Capital: An Institutional Theory of Generalized Trust. Comparative Politics 40(4):441–459.",10.5129/001041508X12911362383354,v0.2
+S06>S22,S06,S22,2,yargi,,Hukuki öngörülebilirlik uzun vadeli yatırımı ve dış finansmanın bileşimini (doğrudan yatırım / sıcak para) etkiler.,,,v0.2
+S06>S09,S06,S09,2,yargi,,İdari yargı denetimi kamu yönetiminin kurallılığını etkiler.,,,v0.2
+S06>S12,S06,S12,2,yargi,,Yargı bağımsızlığı basın özgürlüğünün güvencesi.,,,v0.2
+S06>S15,S06,S15,2,yargi,,Fikri mülkiyet korumasının uygulanması.,,,v0.2
+S06>S07,S06,S07,2,yargi,,Kural temelli yönetim politika sürekliliğini destekler.,,,v0.2
+S06>S16,S06,S16,2,yargi,,İmar kurallarının yaptırımı.,,,v0.2
+S06>S17,S06,S17,2,yargi,,Yapı denetimi ihlallerine yaptırım.,,,v0.2
+S06>S21,S06,S21,1,yargi,,Sözleşme güvencesi ve finansal derinlik.,,,v0.2
+S07>S21,S07,S21,3,tartismali,CWN92,Gelişmekte olan ülkelerde yasal bağımsızlıktan çok merkez bankası başkanlarının değişim sıklığı (fiili süreklilik) yüksek enflasyonla ilişkili. Kaynak S07'nin yalnız politika sürekliliği bileşenini ölçüyor.,"Cukierman, A., Webb, S.B. & Neyapti, B. (1992). Measuring the Independence of Central Banks and Its Effect on Policy Outcomes. World Bank Economic Review 6(3):353–398.",10.1093/wber/6.3.353,v0.2
+S07>S22,S07,S22,2,yargi,BBD16,Belirsizlik uzun vadeli tasarrufu ve yatırımı caydırır.,"Baker, S.R., Bloom, N. & Davis, S.J. (2016). Measuring Economic Policy Uncertainty. Quarterly Journal of Economics 131(4):1593–1636.",10.1093/qje/qjw024,v0.2
+S07>S01,S07,S01,2,yargi,,"Sık sistem değişikliği (sınav, kademe) eğitimde sürekliliği bozar.",,,v0.2
+S07>S13,S07,S13,2,yargi,,Destek ve arazi politikalarında süreksizlik.,,,v0.2
+S07>S15,S07,S15,2,yargi,,Ar-Ge teşviklerinde süreksizlik.,,,v0.2
+S07>S16,S07,S16,2,yargi,,İmar planlarının uygulanmaması.,,,v0.2
+S07>S17,S07,S17,2,yargi,,Afet planlarının uygulamaya geçmemesi.,,,v0.2
+S07>S19,S07,S19,2,yargi,,Havza planlarının uygulanmaması.,,,v0.2
+S07>S20,S07,S20,2,yargi,,Bölgesel planların uygulanmaması.,,,v0.2
+S07>S14,S07,S14,1,yargi,,Sanayi politikasında süreksizlik.,,,v0.2
+S07>S18,S07,S18,1,yargi,,Enerji politikasında süreksizlik.,,,v0.2
+S08>S07,S08,S07,2,yargi,,Uygulama yerelde olur; yerel kapasite zayıfsa plan uygulamaya geçmez.,,,v0.2
+S08>S16,S08,S16,2,yargi,,Planlama yetkisinin merkezde toplanması ve yerel kapasitenin zayıflığı.,,,v0.2
+S08>S17,S08,S17,2,yargi,OECD23EQ,Afet hazırlığı ve müdahalede yerel kapasite belirleyici.,"OECD (2023). The Territorial Impact of the Earthquakes in Türkiye. OECD Publishing, Paris.",10.1787/bb5c07e6-en,v0.2
+S08>S20,S08,S20,1,tartismali,RPE10,Literatür ters yönlü: mali ademi merkeziyetçilik düşük/orta gelirli ülkelerde bölgesel eşitsizliği ARTIRMAKLA ilişkili bulunmuş. Bu yüzden 1.,"Rodríguez-Pose, A. & Ezcurra, R. (2010). Does decentralization matter for regional disparities? A cross-country analysis. Journal of Economic Geography 10(5):619–644.",10.1093/jeg/lbp049,v0.2
+S08>S19,S08,S19,1,yargi,,Su hizmetlerinde yerel kapasite.,,,v0.2
+S08>S09,S08,S09,1,yargi,,Yerel yönetimlerde kurumsal kapasite.,,,v0.2
+S08>S11,S08,S11,1,yargi,,Yerel katılım ve güven.,,,v0.2
+S09>S07,S09,S07,3,guclu,PWA13;RT08,"Planın uygulanması, kurallara bağlı ve tarafsız işleyen bir yönetime dayanır; keyfi ve kişiye göre işleyen yönetimde program 'devlet gibi görünür' ama uygulanmaz (isomorphic mimicry). B1: 4→3; ER99 çıktı (işe alımda liyakati ölçüyor, S09'un yeni tanımı değil).","Pritchett, L., Woolcock, M. & Andrews, M. (2013). Looking Like a State: Techniques of Persistent Failure in State Capability for Implementation. Journal of Development Studies 49(1):1–18. | Rothstein, B. & Teorell, J. (2008). What Is Quality of Government? A Theory of Impartial Government Institutions. Governance 21(2):165–190.",10.1080/00220388.2012.709614 | 10.1111/j.1468-0491.2008.00391.x,v0.2
+S09>S17,S09,S17,3,guclu,ESC07;AB11,Kamu kesimindeki yolsuzluk büyük depremlerde ölüm sayısını artırıyor (yapı denetimi).,"Escaleras, M., Anbarci, N. & Register, C.A. (2007). Public sector corruption and major earthquakes: A potentially deadly interaction. Public Choice 132(1–2):209–230. | Ambraseys, N. & Bilham, R. (2011). Corruption kills. Nature 469(7329):153–155.",10.1007/s11127-007-9148-y | 10.1038/469153a,v0.2
+S09>S11,S09,S11,3,guclu,RS08,Kamu hizmetinin tarafsızlığı genelleşmiş güvenin kaynağı.,"Rothstein, B. & Stolle, D. (2008). The State and Social Capital: An Institutional Theory of Generalized Trust. Comparative Politics 40(4):441–459.",10.5129/001041508X12911362383354,v0.2
+S09>S10,S09,S10,2,yargi,BP09,Vergi idaresi kapasitesi kayıt dışılıkla birlikte gelişir.,"Besley, T. & Persson, T. (2009). The Origins of State Capacity: Property Rights, Taxation, and Politics. American Economic Review 99(4):1218–1244.",10.1257/aer.99.4.1218,v0.2
+S09>S01,S09,S01,1,yargi,,Eğitim yönetiminin kurallı ve tarafsız işleyişi (S09 yeni tanımı).,,,v0.2
+S09>S15,S09,S15,1,yargi,,Ar-Ge destek programlarının tarafsız ve kurallı yönetimi (S09 yeni tanımı).,,,v0.2
+S09>S16,S09,S16,2,yargi,,İmar ve ruhsat süreçleri.,,,v0.2
+S09>S19,S09,S19,1,yargi,,Su tahsisinin kurallı ve tarafsız yönetimi (S09 yeni tanımı).,,,v0.2
+S09>S21,S09,S21,2,yargi,,Kurallara bağlı ekonomi yönetimi ve öngörülebilirlik (S09 yeni tanımı).,,,v0.2
+S09>S13,S09,S13,1,yargi,,Tarım destek yönetimi.,,,v0.2
+S09>S20,S09,S20,1,yargi,,Bölgesel kalkınma ajanslarının kapasitesi.,,,v0.2
+S09>S12,S09,S12,1,yargi,,Kamu bilgisinin açıklığı.,,,v0.2
+S10>S22,S10,S22,2,yargi,WB10,Dar vergi tabanı kamu tasarrufunu düşürür.,"World Bank (2010). Turkey Country Economic Memorandum – Informality: Causes, Consequences, Policies. Report No. 48523-TR.",,v0.2
+S10>S11,S10,S11,1,yargi,,Kurala uymayanın kazandığı algısı.,,,v0.2
+S10>S02,S10,S02,1,yargi,,Kayıt dışı işlerde eğitim ve beceri yatırımı düşük.,,,v0.2
+S10>S21,S10,S21,1,yargi,,Vergi tabanı dar → maliye politikası kırılgan.,,,v0.2
+S10>S04,S10,S04,1,yargi,,Kayıt dışı iş kadınlar için güvencesiz.,,,v0.2
+S11>S10,S11,S10,2,yargi,TS09,Vergi ahlakı ve kurumlara güven kayıt dışılığı etkiliyor.,"Torgler, B. & Schneider, F. (2009). The impact of tax morale and institutional quality on the shadow economy. Journal of Economic Psychology 30(2):228–245.",10.1016/j.joep.2008.08.004,v0.2
+S11>S06,S11,S06,1,yargi,,Kurallara uyum kültürü.,,,v0.2
+S11>S12,S11,S12,1,yargi,,Bilgi kaynaklarına güven (kutuplaşma kanalı artık S24'te).,,,v0.2
+S11>S07,S11,S07,1,yargi,,Uzlaşı kapasitesi (siyasi kutuplaşma kanalı S24>S07'de ayrıca sayılıyor).,,,v0.2
+S11>S22,S11,S22,1,yargi,,Finansal sisteme güven ve tasarruf.,,,v0.2
+S12>S09,S12,S09,3,guclu,BW03,Basın özgürlüğü yolsuzluğu azaltıyor; yolsuzluk tarafsız ve kurallı yönetimin tam karşıtı.,"Brunetti, A. & Weder, B. (2003). A free press is bad news for corruption. Journal of Public Economics 87(7–8):1801–1824.",10.1016/S0047-2727(01)00186-4,v0.2
+S12>S07,S12,S07,2,yargi,BB02,Bilgili kamuoyu hükümetin duyarlılığını ve hesap verebilirliğini artırıyor.,"Besley, T. & Burgess, R. (2002). The Political Economy of Government Responsiveness: Theory and Evidence from India. Quarterly Journal of Economics 117(4):1415–1451.",10.1162/003355302320935061,v0.2
+S12>S11,S12,S11,2,yargi,,Bilgi kirliliği güveni aşındırır (kutuplaşma kanalı artık S24'te).,,,v0.2
+S12>S06,S12,S06,2,yargi,,Hesap verebilirlik ve yargı üzerinde kamuoyu denetimi.,,,v0.2
+S12>S21,S12,S21,1,yargi,,Beklenti yönetimi ve bilgiye güven.,,,v0.2
+S13>S19,S13,S19,2,yargi,OECD16AG;WBCCDR22,"Tarım en büyük su kullanıcısı; bağ verimlilikten çok sulama yönetiminden geliyor, 2 (B9).","OECD (2016). Innovation, Agricultural Productivity and Sustainability in Turkey. OECD Food and Agricultural Reviews, Paris. | World Bank (2022). Türkiye Country Climate and Development Report. Washington, DC.",10.1787/9789264261198-en | hdl:10986/37521,v0.2
+S13>S10,S13,S10,2,yargi,WB10,Kayıt dışı istihdamın büyük kısmı tarımda; bağın bir kısmı bileşim (sayım) etkisi olduğu için 2 (B3).,"World Bank (2010). Turkey Country Economic Memorandum – Informality: Causes, Consequences, Policies. Report No. 48523-TR.",,v0.2
+S13>S16,S13,S16,2,yargi,HT70,Tarımda düşük gelir kırdan kente göçü iter.,"Harris, J.R. & Todaro, M.P. (1970). Migration, Unemployment and Development: A Two-Sector Analysis. American Economic Review 60(1):126–142.",,v0.2
+S13>S20,S13,S20,2,yargi,,Tarıma bağımlı bölgelerde düşük gelir.,,,v0.2
+S13>S21,S13,S21,2,yargi,,Gıda fiyatları enflasyonun oynak bileşeni.,,,v0.2
+S13>S04,S13,S04,2,yargi,IL12,Tarımdan çıkış (ücretsiz aile işçiliğinin çözülmesi) kadın katılımını düşürdü.,"İlkkaracan, İ. (2012). Why so Few Women in the Labor Market in Turkey? Feminist Economics 18(1):1–37.",10.1080/13545701.2011.649358,v0.2
+S14>S22,S14,S22,3,guclu,SAY10,İmalatın ithal ara malı bağımlılığı büyüme dönemlerinde ithalatı ve cari açığı artırıyor.,"Saygılı, Ş., Cihan, C., Yalçın, C. & Hamsici, T. (2010). Türkiye İmalat Sanayiinin İthalat Yapısı. TCMB Çalışma Tebliği No. 10/02.",,v0.2
+S14>S15,S14,S15,2,yargi,,Düşük teknolojili sanayinin Ar-Ge talebi düşük.,,,v0.2
+S14>S02,S14,S02,1,yargi,,Beceri talebinin yapısı.,,,v0.2
+S14>S18,S14,S18,1,yargi,,Enerji yoğun üretim.,,,v0.2
+S14>S21,S14,S21,1,yargi,,İthal girdi → kur geçişkenliği.,,,v0.2
+S15>S14,S15,S14,3,guclu,GRV04,Ar-Ge hem yenilik hem teknoloji soğurma yoluyla sanayinin teknoloji düzeyini yükseltiyor.,"Griffith, R., Redding, S. & Van Reenen, J. (2004). Mapping the Two Faces of R&D: Productivity Growth in a Panel of OECD Industries. Review of Economics and Statistics 86(4):883–895.",10.1162/0034653043125194,v0.2
+S15>S18,S15,S18,1,yargi,,Yerli enerji teknolojileri.,,,v0.2
+S15>S02,S15,S02,1,yargi,,Nitelikli iş talebi.,,,v0.2
+S16>S17,S16,S17,3,guclu,GUN15;SBB23,"Eski yönetmelikle yapılmış, denetimsiz ve imar aflarıyla kayda geçmiş yapı stoku deprem kayıplarının ana nedenlerinden. Denetim kanalı S09>S17'de sayıldığı için 3 (B9).","Güneş, O. (2015). Turkey's grand challenge: Disaster-proof building inventory within 20 years. Case Studies in Construction Materials 2:18–34. | T.C. Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığı (2023). 2023 Kahramanmaraş ve Hatay Depremleri Raporu. Mart 2023.",10.1016/j.cscm.2014.12.003,v0.2
+S16>S19,S16,S19,1,yargi,,Havza koruma alanlarında yapılaşma.,,,v0.2
+S16>S11,S16,S11,1,yargi,,Kentsel bütünleşme.,,,v0.2
+S16>S20,S16,S20,1,yargi,,Kent içi eşitsizlik.,,,v0.2
+S16>S21,S16,S21,1,yargi,,Konut fiyatları.,,,v0.2
+S17>S22,S17,S22,2,yargi,GRADE23;SBB23,Büyük depremler kamu maliyesine ve dış finansman ihtiyacına büyük yük bindiriyor.,"World Bank (2023). Global Rapid Post-Disaster Damage Estimation (GRADE) Report: February 6, 2023 Kahramanmaraş Earthquakes – Türkiye Report. | T.C. Cumhurbaşkanlığı Strateji ve Bütçe Başkanlığı (2023). 2023 Kahramanmaraş ve Hatay Depremleri Raporu. Mart 2023.",,v0.2
+S17>S20,S17,S20,2,yargi,OECD23EQ,Depremden etkilenen bölgelerin geri kalması.,"OECD (2023). The Territorial Impact of the Earthquakes in Türkiye. OECD Publishing, Paris.",10.1787/bb5c07e6-en,v0.2
+S17>S16,S17,S16,1,yargi,,Afet sonrası aceleci yapılaşma.,,,v0.2
+S17>S21,S17,S21,1,yargi,,Yeniden yapım harcamaları.,,,v0.2
+S18>S22,S18,S22,3,guclu,EREN25,"Enerji ithalatı cari açığın ana kalemi; TCMB analizine göre petrol fiyatındaki 10 dolarlık artış 12 ayda yaklaşık 2,6 milyar dolar ek cari açık yaratıyor (ihracat ve ithalat esnekliği sıfır varsayımıyla).","Eren, O., Kalafatcılar, M.K., Ocakverdi, E. & Özel, O. (2025). Impacts of International Oil Prices on Consumer Prices and the Current Account Balance. TCMB Blog, 7 Ekim 2025.",https://tcmbblog.org,v0.2
+S18>S21,S18,S21,2,yargi,DK14;EREN25,"Petrol fiyatları iç fiyatlara geçiyor; ama bu bir fiyat düzeyi şoku, kronik enflasyonu tek başına açıklamıyor, 2 (B9).","Dedeoğlu, D. & Kaya, H. (2014). Pass-through of oil prices to domestic prices: Evidence from an oil-hungry but oil-poor emerging market. Economic Modelling 43:67–74. | Eren, O., Kalafatcılar, M.K., Ocakverdi, E. & Özel, O. (2025). Impacts of International Oil Prices on Consumer Prices and the Current Account Balance. TCMB Blog, 7 Ekim 2025.",10.1016/j.econmod.2014.07.038 | https://tcmbblog.org,v0.2
+S18>S14,S18,S14,1,yargi,,Enerji maliyeti ve rekabet gücü.,,,v0.2
+S19>S13,S19,S13,3,guclu,WBCCDR22,Kuraklık ve su kıtlığı tarım üretimini doğrudan etkiliyor.,"World Bank (2022). Türkiye Country Climate and Development Report. Washington, DC.",hdl:10986/37521,v0.2
+S19>S20,S19,S20,1,yargi,,Kuraklığa açık bölgeler.,,,v0.2
+S19>S21,S19,S21,1,yargi,,Gıda fiyatları.,,,v0.2
+S19>S18,S19,S18,1,yargi,,Hidroelektrik üretimi.,,,v0.2
+S20>S16,S20,S16,3,zayif,HT70,"Bölgeler arası gelir farkı göçü, göç plansız kentleşmeyi besliyor. Kaynak kuramsal; Türkiye'ye özgü ampirik kaynak eklenmeli.","Harris, J.R. & Todaro, M.P. (1970). Migration, Unemployment and Development: A Two-Sector Analysis. American Economic Review 60(1):126–142.",,v0.2
+S20>S01,S20,S01,2,yargi,,Okul niteliğinde bölgesel farklar.,,,v0.2
+S20>S10,S20,S10,2,yargi,,Kayıt dışılığın bölgesel yoğunlaşması.,,,v0.2
+S20>S04,S20,S04,1,yargi,,Kadın katılımında bölgesel fark.,,,v0.2
+S20>S11,S20,S11,1,yargi,,Bölgesel kopukluk.,,,v0.2
+S21>S22,S21,S22,2,yargi,WB11;VR10,"Yüksek ve oynak enflasyon tasarrufu dövize ve kısa vadeye kaydırıyor; toplam etkisi belirsiz, 2 (B9).","World Bank (2011). Turkey – Country Economic Memorandum: Sustaining High Growth – The Role of Domestic Savings. Report No. 66301-TR. | Van Rijckeghem, C. (2010). Determinants of Private Saving in Turkey: An Update. Boğaziçi Üniversitesi İktisat Bölümü Çalışma Tebliği 2010/04.",,v0.2
+S21>S07,S21,S07,2,yargi,,Kriz dönemleri plan ve programların rafa kalkmasına yol açar.,,,v0.2
+S21>S15,S21,S15,2,yargi,,Uzun vadeli yatırım ufku kısalır.,,,v0.2
+S21>S11,S21,S11,1,yargi,,Paraya ve kurumlara güven.,,,v0.2
+S21>S10,S21,S10,1,yargi,,Kayıt dışına kaçış.,,,v0.2
+S22>S21,S22,S21,3,guclu,KR99,Dış finansmana bağımlılık ani duruş ve kur krizlerine açıklık yaratıyor; kur şokları enflasyona geçiyor. (Kaynak ikiz krizleri kapsıyor; kur geçişkenliği için Türkiye'ye özgü kaynak eklenmeli.),"Kaminsky, G.L. & Reinhart, C.M. (1999). The Twin Crises: The Causes of Banking and Balance-of-Payments Problems. American Economic Review 89(3):473–500.",10.1257/aer.89.3.473,v0.2
+S22>S15,S22,S15,1,yargi,,Uzun vadeli finansman eksikliği.,,,v0.2
+S22>S07,S22,S07,1,yargi,,Dış şoklar programları bozar.,,,v0.2
+S22>S14,S22,S14,1,yargi,,Sanayi yatırımının finansmanı.,,,v0.2
+S24>S06,S24,S06,3,guclu,MRS18;SOM19;SVO19,"Kutuplaşmış toplumda seçmen, kendi tarafının denetim kurumlarını aşındırmasını tolere ediyor; bu, yargı bağımsızlığının ve hukukun üstünlüğünün aşınmasının ana kanallarından. Somer (2019) Türkiye'yi bu sürecin örnek vakası olarak inceliyor.","McCoy, J., Rahman, T. & Somer, M. (2018). Polarization and the Global Crisis of Democracy: Common Patterns, Dynamics, and Pernicious Consequences for Democratic Polities. American Behavioral Scientist 62(1):16–42. | Somer, M. (2019). Turkey: The Slippery Slope from Reformist to Revolutionary Polarization and Democratic Breakdown. The ANNALS of the American Academy of Political and Social Science 681(1):42–61. | Svolik, M.W. (2019). Polarization versus Democracy. Journal of Democracy 30(3):20–32.",10.1177/0002764218759576 | 10.1177/0002716218818056 | 10.1353/jod.2019.0039,v0.2
+S24>S07,S24,S07,3,guclu,FRY02;AZZ11,"Kutuplaşma, iktidar değişiminde politikaların tersine dönme riskini ve dolayısıyla politika oynaklığını artırıyor; uzun vadeli kamu yatırımı ve plan sürekliliği zayıflıyor. Kaynaklar eski sosyalist ülkeler ve kuramsal model; Türkiye'ye özgü değil.","Frye, T. (2002). The Perils of Polarization: Economic Performance in the Postcommunist World. World Politics 54(3):308–337. | Azzimonti, M. (2011). Barriers to Investment in Polarized Societies. American Economic Review 101(5):2182–2204.",10.1353/wp.2002.0008 | 10.1257/aer.101.5.2182,v0.2
+S24>S11,S24,S11,2,yargi,IYE19,"Duygusal kutuplaşma karşı taraftakilere güveni düşürüyor; genelleşmiş güvene etkisi daha dolaylı, bu yüzden 2.","Iyengar, S., Lelkes, Y., Levendusky, M., Malhotra, N. & Westwood, S.J. (2019). The Origins and Consequences of Affective Polarization in the United States. Annual Review of Political Science 22:129–146.",10.1146/annurev-polisci-051117-073034,v0.2
+S24>S12,S24,S12,2,yargi,PRI13,Kutuplaşmış izleyici talebi taraflı yayıncılığı besliyor (seçici maruz kalma); kaynak iki yönlü ilişkiyi ve kanıtın karışık olduğunu vurguluyor.,"Prior, M. (2013). Media and Political Polarization. Annual Review of Political Science 16:101–127.",10.1146/annurev-polisci-100711-135242,v0.2
+S24>S09,S24,S09,2,yargi,,Kutuplaşma bürokrasinin taraflaşmasını ve kamu hizmetinde 'bizden/onlardan' ayrımını kolaylaştırır.,,,v0.2
+S24>S25,S24,S25,2,yargi,SOM19,Türkiye'de kutuplaşma laik-dindar ve etnik kimlik ayrımlarının üzerine inşa edildi; kutuplaşma bu ayrımları derinleştirir.,"Somer, M. (2019). Turkey: The Slippery Slope from Reformist to Revolutionary Polarization and Democratic Breakdown. The ANNALS of the American Academy of Political and Social Science 681(1):42–61.",10.1177/0002716218818056,v0.2
+S24>S26,S24,S26,2,yargi,,"Kutuplaşmış ortamda karşı görüş dinlenmez, tartışma taraf tutmaya dönüşür. (Göstergeler kavramsal olarak örtüşüyor; çift sayım riski.)",,,v0.2
+S24>S21,S24,S21,2,yargi,CET92,"Kutuplaşma ve siyasi istikrarsızlık, hükümetleri verimsiz vergi sistemine ve senyoraja iterek enflasyonu yükseltiyor. Kanıt ağırlıkla istikrarsızlık üzerinden; 2.","Cukierman, A., Edwards, S. & Tabellini, G. (1992). Seigniorage and Political Instability. American Economic Review 82(3):537–555.",,v0.2
+S24>S08,S24,S08,1,yargi,,"Kutuplaşmış ortamda merkez, muhalefetteki yerel yönetimlerin yetki ve kaynaklarını kısıtlamaya yönelir.",,,v0.2
+S12>S24,S12,S24,3,guclu,MY17;AGEG20,Taraflı yayıncılık izleyicinin görüşlerini kutuplaştırıyor (Martin ve Yurukoglu); sosyal medyayı bırakmak politika görüşlerindeki kutuplaşmayı azaltıyor (Allcott vd.). Kaynaklar ABD'ye ait; Prior (2013) etkinin büyüklüğünün tartışmalı olduğunu not ediyor.,"Martin, G.J. & Yurukoglu, A. (2017). Bias in Cable News: Persuasion and Polarization. American Economic Review 107(9):2565–2599. | Allcott, H., Braghieri, L., Eichmeyer, S. & Gentzkow, M. (2020). The Welfare Effects of Social Media. American Economic Review 110(3):629–676.",10.1257/aer.20160812 | 10.1257/aer.20190658,v0.2
+S21>S24,S21,S24,2,yargi,FST16,"Finansal krizlerden sonra oylar uç partilere kayıyor, meclis bölünüyor. Kaynak finansal krizleri ölçüyor, kronik enflasyonu değil; bu yüzden 2.","Funke, M., Schularick, M. & Trebesch, C. (2016). Going to extremes: Politics after financial crises, 1870–2014. European Economic Review 88:227–260.",10.1016/j.euroecorev.2016.03.006,v0.2
+S20>S24,S20,S24,2,yargi,RP18,Geride kalan bölgelerin tepkisi siyasi kutuplaşma olarak geri dönüyor ('önemsenmeyen yerlerin intikamı'). Kaynak Avrupa ve ABD üzerine.,"Rodríguez-Pose, A. (2018). The revenge of the places that don't matter (and what to do about it). Cambridge Journal of Regions, Economy and Society 11(1):189–209.",10.1093/cjres/rsx024,v0.2
+S25>S24,S25,S24,2,yargi,,"Din, dil ve etnik köken ekseninde dışlanma, siyasi kampların kimlik üzerinden kurulmasını kolaylaştırır.",,,v0.2
+S26>S24,S26,S24,2,yargi,FSDB21,"Yapılandırılmış müzakere deneyinde katılımcıların kutuplaşması azaldı. Kanıt küçük örneklemli müzakere deneyinden; toplum düzeyine genellemek dolaylı, bu yüzden 2.","Fishkin, J., Siu, A., Diamond, L. & Bradburn, N. (2021). Is Deliberation an Antidote to Extreme Partisan Polarization? Reflections on 'America in One Room'. American Political Science Review 115(4):1464–1481.",10.1017/S0003055421000642,v0.2
+S11>S24,S11,S24,1,yargi,,"Düşük genelleşmiş güven, karşı tarafı tehdit olarak görmeyi kolaylaştırır.",,,v0.2
+S01>S24,S01,S24,1,yargi,,Eleştirel düşünme ve yurttaşlık eğitimi kutuplaşmaya karşı direnci artırabilir.,,,v0.2
+S06>S24,S06,S24,1,yargi,,"Taraflı görülen yargı, siyasi rekabeti 'kazanan her şeyi alır' oyununa çevirir.",,,v0.2
+S08>S24,S08,S24,1,yargi,,"Güç merkezde toplandıkça seçimin kaybedilmesinin maliyeti artar, rekabet sertleşir.",,,v0.2
+S25>S11,S25,S11,3,guclu,AL02;AL05,Tarihsel olarak ayrımcılığa uğrayan grupların üyeleri ve etnik olarak bölünmüş topluluklarda yaşayanlar başkalarına daha az güveniyor. Not: kaynaklar dışlanmayı değil çeşitliliği ve ayrımcılık deneyimini ölçüyor.,"Alesina, A. & La Ferrara, E. (2002). Who trusts others? Journal of Public Economics 85(2):207–234. | Alesina, A. & La Ferrara, E. (2005). Ethnic Diversity and Economic Performance. Journal of Economic Literature 43(3):762–800.",10.1016/S0047-2727(01)00084-6 | 10.1257/002205105774431243,v0.2
+S25>S07,S25,S07,2,yargi,EL97,"Etnik bölünmüşlük kötü ve kısa vadeli politikalarla (düşük okullaşma, bütçe açıkları, çarpık döviz piyasası) ilişkili. Kaynak Afrika ağırlıklı ve çeşitliliği ölçüyor, dışlanmayı değil; 2.","Easterly, W. & Levine, R. (1997). Africa's Growth Tragedy: Policies and Ethnic Divisions. Quarterly Journal of Economics 112(4):1203–1250.",10.1162/003355300555466,v0.2
+S25>S09,S25,S09,2,yargi,ABE99,Etnik olarak bölünmüş yerlerde kamu hizmeti sunumu zayıf ve hizmetler gruplar arasında eşit dağıtılmıyor. (V-Dem dışlanma endeksi kamu hizmetine erişimi de içeriyor; S09 ile kavramsal örtüşme var.),"Alesina, A., Baqir, R. & Easterly, W. (1999). Public Goods and Ethnic Divisions. Quarterly Journal of Economics 114(4):1243–1284.",10.1162/003355399556269,v0.2
+S25>S20,S25,S20,2,yargi,,Kimlik ekseninde dışlanma coğrafi olarak yoğunlaşınca bölgesel geri kalmışlıkla iç içe geçer; nedensellik iki yönlü.,,,v0.2
+S25>S06,S25,S06,1,yargi,,Kanun önünde eşitliğe güvenin gruplara göre farklılaşması.,,,v0.2
+S25>S01,S25,S01,1,yargi,,Ana dili Türkçe olmayan çocukların okula başlangıçtaki dil engeli.,,,v0.2
+S25>S26,S25,S26,1,yargi,,Kimlik ayrışması tartışmayı 'biz-onlar' zeminine taşır.,,,v0.2
+S06>S25,S06,S25,2,yargi,,Kanun önünde eşitliğin ve ayrımcılık yasağının uygulanması dışlanmayı sınırlar.,,,v0.2
+S12>S25,S12,S25,2,yargi,,Medyada nefret söylemi ve temsil eksikliği grup ayrımlarını derinleştirir.,,,v0.2
+S20>S25,S20,S25,1,yargi,,Bölgesel yoksunluk etnik kimlikle örtüştüğünde ayrışma algısını güçlendirir.,,,v0.2
+S09>S25,S09,S25,1,yargi,,Tarafsız kamu yönetimi hizmete erişimde grup ayrımını azaltır (göstergeler örtüşüyor).,,,v0.2
+S01>S25,S01,S25,1,yargi,,Müfredat ve okul iklimi farklı gruplara bakışı etkiler.,,,v0.2
+S11>S25,S11,S25,1,yargi,,Düşük güven grup dışına kuşkuyu artırır.,,,v0.2
+S26>S25,S26,S25,1,yargi,,Karşı görüşe saygı kültürü kimlik farklılıklarına toleransı destekler.,,,v0.2
+S26>S12,S26,S12,2,yargi,PR19,Analitik düşünme eğilimi zayıf olanlar yalan haberi ayırt etmekte daha başarısız; bilgi ekosisteminin talep tarafı. Kaynak bireysel düzeyde ve ABD'de.,"Pennycook, G. & Rand, D.G. (2019). Lazy, not biased: Susceptibility to partisan fake news is better explained by lack of reasoning than by motivated reasoning. Cognition 188:39–50.",10.1016/j.cognition.2018.06.011,v0.2
+S26>S01,S26,S01,2,yargi,,Evde ve toplumda okuma alışkanlığı öğrenme çıktılarını destekler (PISA'da okuma zevki ile okuma puanı ilişkili; nedensellik iki yönlü).,,,v0.2
+S26>S07,S26,S07,1,yargi,,Kamusal tartışmanın niteliği politikaların kanıta dayanmasını ve sürekliliğini etkiler.,,,v0.2
+S26>S11,S26,S11,1,yargi,,Karşı görüşe saygı güven ilişkilerini destekler.,,,v0.2
+S01>S26,S01,S26,3,guclu,DEE04;MMO04,"Eğitim yurttaşlık katılımını, siyasi bilgiyi ve farklı görüşlere ifade özgürlüğü tanımaya desteği artırıyor. Kaynaklar eğitimin miktarını (süre) ölçüyor, niteliğini değil.","Dee, T.S. (2004). Are there civic returns to education? Journal of Public Economics 88(9–10):1697–1720. | Milligan, K., Moretti, E. & Oreopoulos, P. (2004). Does education improve citizenship? Evidence from the United States and the United Kingdom. Journal of Public Economics 88(9–10):1667–1695.",10.1016/j.jpubeco.2003.11.002 | 10.1016/j.jpubeco.2003.10.005,v0.2
+S12>S26,S12,S26,2,yargi,,Tek sesli ve taraflı medya ortamı kamusal tartışmanın niteliğini düşürür.,,,v0.2
+S06>S26,S06,S26,2,yargi,,İfade özgürlüğüne ilişkin kovuşturmalar tartışmaya katılımı caydırır (öz sansür).,,,v0.2
+S11>S26,S11,S26,1,yargi,,Güven düşükse karşı görüş kötü niyet olarak okunur.,,,v0.2
+S01>S06,S01,S06,1,yargi,,"Eğitim düzeyi ve kurumlar (Glaeser vd. 2004 tezi; tartışmalı ama sıfır değil, B8).",,,v0.2
+S01>S09,S01,S09,1,yargi,,Kamu personelinin eğitimi ve yurttaşın talebi (B8).,,,v0.2
+S09>S06,S09,S06,2,yargi,,Yargı personeli ve mahkeme yönetiminin kurallı ve tarafsız işleyişi (B10).,,,v0.2
+S01>S05,S01,S05,2,yargi,BCFF09,Kadın eğitimi doğurganlıkla ilişkili (B10).,"Bloom, D.E., Canning, D., Fink, G. & Finlay, J.E. (2009). Fertility, female labor force participation, and the demographic dividend. Journal of Economic Growth 14(2):79–101.",10.1007/s10887-009-9039-9,v0.2
+S21>S14,S21,S14,1,yargi,,Oynaklık uzun vadeli sanayi yatırımını caydırır (B10).,,,v0.2
+S19>S17,S19,S17,1,yargi,,Kuraklık ve sel afet riskinin parçası (B10).,,,v0.2
+S11>S09,S11,S09,1,yargi,,Güven düşük toplumda kayırmacılık beklentisi (B10).,,,v0.2
