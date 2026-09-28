@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+.venv/
+.pytest_cache/
+*.wav
+*.mp3
+*.m4a
