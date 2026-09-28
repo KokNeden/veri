@@ -2,6 +2,10 @@
 
 Her değişiklik burada. Biçim: tarih ve etiket başlığı, altında video klasörü başına bir satır. Veri düzeltmeleri ayrıca [DUZELTMELER.md](DUZELTMELER.md)'de.
 
+## 28.09.2026 · atıf
+
+- `CITATION.cff` eklendi: GitHub'daki "Cite this repository" düğmesi APA ve BibTeX üretir. Atıf rehberi: https://kokneden.org/atif/
+
 ## 28.09.2026 · 03-v1.3
 
 - `03-kronik-sorunlar`: `veri/plan-hedef-gerceklesme.csv` 169 hedef; planların bütün sayısal hedefleri tarandı. Eklenen: XI. Plan kadın istihdam oranı (%34 hedef, %31,3 gerçekleşme; yakın ölçü, TÜİK 2021 seri revizyonu). Çıkarılan: XI. Plan gezici kütüphane (2023 değeri sayım tarihine göre değişiyor, sonuç tersine dönüyor; gerekçe `kod/analiz/plan_gerceklesme.py` → ARASTIRMA_DISI). `veri/sozluk.json` kayıt sayısı.

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Bu veriyi ya da kodu kullanırsanız lütfen aşağıdaki gibi kaynak gösterin. Belirli bir videonun verisi için sürüm etiketini (ör. 04-v1.0) ve erişim tarihini de yazın. Ayrıntı: https://kokneden.org/atif/"
+title: "Kök Neden açık veri deposu"
+type: dataset
+authors:
+  - family-names: "Can"
+    given-names: "Berk"
+repository-code: "https://github.com/KokNeden/veri"
+url: "https://kokneden.org/veri/"
+abstract: "Kök Neden videolarında ve sitesinde kullanılan rakamların verisi, hesaplama kodu ve kaynakları: Türkiye'nin kalkınma planlarındaki hedefler ve gerçekleşmeler, kronik sorunlar ve sıralama."
+keywords:
+  - Türkiye
+  - kalkınma planları
+  - açık veri
+  - kronik sorunlar
+  - open data
+license: CC-BY-4.0
+date-released: "2026-09-28"
