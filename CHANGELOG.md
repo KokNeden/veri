@@ -4,7 +4,7 @@ Her değişiklik burada. Biçim: tarih ve etiket başlığı, altında video kla
 
 ## 28.09.2026 · 03-v1.1
 
-- `03-kronik-sorunlar`: `veri/plan-hedef-gerceklesme.csv` 154 → 168 hedef (gerçekleşmesi bulunan plan hedefleri; 03-v1.0'da 154, araştırmanın başında 64). Son tur: demografi, medya, bölgesel, yerel yönetim, afet. `kod/analiz/plan_gerceklesme.py`: eşleştirme tam eşleşmeyi tercih ediyor; araştırma dışı bırakılan 29 hedef gerekçeleriyle kodda.
+- `03-kronik-sorunlar`: `veri/plan-hedef-gerceklesme.csv` 154 → 168 hedef (gerçekleşmesi bulunan plan hedefleri; 03-v1.0'da 154, araştırmanın başında 64). Son tur: medya, bölgesel, yerel yönetim, afet ve küçük sorunlar. `kod/analiz/plan_gerceklesme.py`: eşleştirme tam eşleşmeyi tercih ediyor; araştırma dışı bırakılan 29 hedef gerekçeleriyle kodda.
 
 ## 28.09.2026 · 01-v1.0 · 02-v1.0 · 03-v1.0 · 04-v1.0
 
