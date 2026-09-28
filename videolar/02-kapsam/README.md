@@ -1,6 +1,6 @@
 # 02 · Yalnız ekonomi değil: güven, kutuplaşma, okuma kültürü
 
-Video yakında YouTube’da. · [Sitedeki sayfa](https://kokneden.org/videolar/02-kapsam/) · Sürüm: v1.0 · Güncelleme: 26 Eylül 2026
+Video ve sayfası yakında yayında. · Sürüm: v1.0 · Güncelleme: 26 Eylül 2026
 
 ## Özet
 
@@ -26,6 +26,7 @@ Erişim tarihi: 26.09.2026.
 
 ## Sınırlılıklar
 
+- **Nasıl yapıldı:** Kaynak tarama, veri işleme ve görsellerin kodu yapay zekâ araçları desteğiyle yapıldı. Rakamlar, sayfadaki tabloda kaynaklarına karşı kontrol edildi; ayrı kaynak testi 03. videodan itibaren uygulanıyor. Seslendirme, Berk Can'ın sesinden (ses örneği) yapay zekâyla üretildi. Uzman okuması: henüz yok. Ayrıntı: [Nerede duruyoruz?](/nerede-duruyoruz/)
 - Güven verisindeki dönemler anket **dalgalarıdır**; her dalgada Türkiye'de tek bir saha çalışması yapılmıştır.
 - Kutuplaşma verisi tek bir araştırmanın tek bir yılıdır. Soru herkese, kendi en uzak hissettiği parti için sorulmuştur; tek bir partinin tabanını göstermez. Kronikliği göstermek için farklı yıllarla karşılaştırma sonraki videolarda yapılacaktır.
 - OECD ölçümü bir **beceri** ölçüsüdür ve 2014–2015'e aittir; okuma kültürünün kendisini tek başına anlatmaz.

@@ -1,6 +1,6 @@
 # 03 · Türkiye'nin 24 kronik sorunu: 12 kalkınma planı ne hedefledi, ne oldu?
 
-Video yakında YouTube’da. · [Sitedeki sayfa](https://kokneden.org/videolar/03-kronik-sorunlar/) · Sürüm: v1.1 · Güncelleme: 27 Eylül 2026
+Video ve sayfası yakında yayında. · Sürüm: v1.1 · Güncelleme: 27 Eylül 2026
 
 ## Özet
 
@@ -44,6 +44,7 @@ Erişim tarihi: 26–27.09.2026.
 
 ## Sınırlılıklar
 
+- **Nasıl yapıldı:** Kaynak tarama, veri işleme ve görsellerin kodu yapay zekâ araçları desteğiyle yapıldı. Metindeki her iddia, yazarın notlarını görmeden, ayrı bir yapay zekâ denetimiyle ham kaynağa karşı sınandı (kaynak testi); bulguları Berk Can inceledi. Seslendirme, Berk Can'ın sesinden (ses örneği) yapay zekâyla üretildi. Uzman okuması: henüz yok. Ayrıntı: [Nerede duruyoruz?](/nerede-duruyoruz/)
 - **Tablo 30** önlemlerin *sayısını* ölçer, ağırlığını değil; IV. Plan bu çekinceyi kendisi yazar.
 - **Hedef ve öngörü:** Planlar enflasyon ve bazı başka göstergeler için sayıyı kimi zaman "hedef", kimi zaman "tahmin" diye yazar. Videoda ve tabloda bu ayrım gözetildi; `plan-hedefleri.csv` dosyasında `hedef_degeri` sütunu planın yazdığı sayıdır, niteliği `gosterge` ve `alinti` sütunlarından okunmalıdır.
 - **Ölçü farkı:** Hedef ve gerçekleşme her zaman aynı ölçü değildir (VIII. Plan enflasyonu yıl sonu hedeflerken tabloda yalnız yıllık ortalama var; enerji hedefleri Dünya Bankası ölçüsüyle birebir aynı değildir). Aynı ölçünün olmadığı yer tabloda belirtildi.
@@ -54,7 +55,7 @@ Erişim tarihi: 26–27.09.2026.
 - **Enerji:** X. Plan'ın "yerli kaynak" tanımı yurt dışındaki çıkarımları da içerir; Dünya Bankası ölçüsü içermez.
 - **Deprem:** 2002 sonrası değer, nüfus verisinin bittiği yıla göre 28,9 ile 31,9 arasında değişir.
 - **Beyin göçü** verisi 2010'da biter; 2016 sonrası göç dalgası bu veride yoktur.
-- Planlardaki OCR hataları alıntılarda olduğu gibi korundu. Seslendirme bir ses üretim aracıyla yapıldı.
+- Planlardaki OCR hataları alıntılarda olduğu gibi korundu.
 
 ## Düzeltmeler
 
