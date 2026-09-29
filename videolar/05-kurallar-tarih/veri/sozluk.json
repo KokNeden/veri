@@ -1,0 +1,58 @@
+{
+  "surum": 1,
+  "dosyalar": {
+    "vdem-hukuk-kamu-1923-2025.csv": {
+      "aciklama": "V-Dem hukukun üstünlüğü (v2x_rule, 0–1) ve tarafsız kamu yönetimi (v2clrspct, standart puan) endeksleri: Türkiye ve bugünkü OECD üyelerinin ortancası.",
+      "kaynak": "V-Dem v16 (v-dem.net).",
+      "not": "Uzman değerlendirmesine dayanan endeks; her yıl ülke uzmanlarının puanlarından bir ölçüm modeliyle hesaplanır. OECD ortancası bugünkü 37 üyeden (Türkiye hariç) hesaplandı.",
+      "sutunlar": {
+        "yil": "Yıl.",
+        "gosterge": "v2x_rule ya da v2clrspct.",
+        "turkiye": "Türkiye değeri.",
+        "oecd_ortancasi": "Aynı yıl, bugünkü OECD üyelerinin ortancası.",
+        "kaynak": "Kaynak."
+      }
+    },
+    "mahkeme-dava-yuku-1967-2010.csv": {
+      "aciklama": "Mahkemelerin önündeki dava (önceki yıldan devredenler dahil), karara bağlanan ve ertesi yıla devreden dava sayıları.",
+      "kaynak": "TÜİK, İstatistik Göstergeler 1923–2011, Tablo 6.2.",
+      "not": "'Önündeki dava' TÜİK tablosundaki 'gelen' sütunudur; önceki yıldan devredenleri de içerir (gelen − karara bağlanan = devreden). Yıl içinde açılan yeni dava sayısı değildir.",
+      "sutunlar": {
+        "yil": "Yıl.",
+        "onundeki_dava_devir_dahil": "Mahkemelerin önündeki dava (devir dahil).",
+        "karara_baglanan": "Yıl içinde karara bağlanan.",
+        "ertesi_yila_devreden": "Ertesi yıla devreden.",
+        "devir_orani_yuzde": "Devreden / önündeki dava × 100.",
+        "kaynak": "Kaynak."
+      }
+    },
+    "hakim-kurulu-yapilari.csv": {
+      "aciklama": "Hâkimleri atayan ve görevden alan kurulun beş yapısı: üyeleri kimin seçtiği.",
+      "kaynak": "Anayasa metinleri ve değişiklik kanunları (Resmî Gazete, mevzuat.gov.tr).",
+      "not": "Sayılar üye sayısıdır; 'yargı içinden' hâkim ve savcıların, Yargıtay, Danıştay ve Adalet Akademisinin seçtiği üyeleri toplar.",
+      "sutunlar": {
+        "yil": "Yapının yürürlüğe girdiği yıl.",
+        "kurul": "Kurulun adı.",
+        "uye_sayisi": "Asıl üye sayısı.",
+        "yargi_icinden": "Yargı içinden seçilen üye.",
+        "meclis": "Meclis (ve Senato) seçen üye.",
+        "cumhurbaskani": "Cumhurbaşkanının seçtiği üye.",
+        "adalet_bakanligi_tabii": "Adalet Bakanı ve müsteşar/bakan yardımcısı (tabii üye).",
+        "aciklama": "Kısa açıklama.",
+        "kaynak": "Kaynak."
+      }
+    },
+    "aihm-turkiye-kararlar.csv": {
+      "aciklama": "Avrupa İnsan Hakları Mahkemesinin Türkiye hakkında verdiği kararların 1959'dan itibaren birikimli sayısı.",
+      "kaynak": "AİHM, Violations by Article and by State ve yıllık istatistikler (echr.coe.int).",
+      "not": "Karar yılı ihlal yılı değildir. Bireysel başvuru hakkı 1987'de tanındı. 'türetilmis' satırlar yıllık tablolardan hesaplandı.",
+      "sutunlar": {
+        "donem": "1959'dan dönem sonuna.",
+        "toplam_karar": "Birikimli karar sayısı.",
+        "en_az_bir_ihlal": "En az bir ihlal bulunan karar.",
+        "nitelik": "dogrudan / turetilmis.",
+        "kaynak": "Kaynak."
+      }
+    }
+  }
+}

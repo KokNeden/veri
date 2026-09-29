@@ -2,6 +2,11 @@
 
 Her değişiklik burada. Biçim: tarih ve etiket başlığı, altında video klasörü başına bir satır. Veri düzeltmeleri ayrıca [DUZELTMELER.md](DUZELTMELER.md)'de.
 
+## 29.09.2026 · 05-v1.0
+
+- `05-kurallar-tarih`: ilk sürüm. Veri (V-Dem hukukun üstünlüğü ve tarafsız kamu yönetimi 1923–2025, mahkeme dava yükü 1967–2010, hâkim kurulu yapıları, AİHM kararları), sözlük ve kod.
+- `01`–`04` README: sitenin henüz yayında olmayan sayfalarına göreli bağlantılar metne çevrildi (GitHub'da kırılıyordu).
+
 ## 28.09.2026 · durum notları
 
 - `01`–`04` README: "Nasıl yapıldı" araç beyanı ve "Uzman okuması: henüz yok" durum notları eklendi (sitedeki sayfalarla aynı); henüz yayında olmayan site sayfalarına bağlantı kaldırıldı.

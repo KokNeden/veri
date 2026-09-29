@@ -39,14 +39,14 @@ Erişim tarihi: 27.09.2026.
 
 ## Sınırlılıklar
 
-- **Nasıl yapıldı:** Kaynak tarama, veri işleme ve görsellerin kodu yapay zekâ araçları desteğiyle yapıldı. Metindeki her iddia, yazarın notlarını görmeden, ayrı bir yapay zekâ denetimiyle ham kaynağa karşı sınandı (kaynak testi); bulguları Berk Can inceledi. Seslendirme, Berk Can'ın sesinden (ses örneği) yapay zekâyla üretildi. Uzman okuması: henüz yok. Ayrıntı: [Nerede duruyoruz?](/nerede-duruyoruz/)
+- **Nasıl yapıldı:** Kaynak tarama, veri işleme ve görsellerin kodu yapay zekâ araçları desteğiyle yapıldı. Metindeki her iddia, yazarın notlarını görmeden, ayrı bir yapay zekâ denetimiyle ham kaynağa karşı sınandı (kaynak testi); bulguları Berk Can inceledi. Seslendirme, Berk Can'ın sesinden (ses örneği) yapay zekâyla üretildi. Uzman okuması: henüz yok. Ayrıntı: Nerede duruyoruz?
 - **Puanlar yargıdır.** Matrisin ilk taslağı yapay zekâ destekli bir literatür taramasıyla hazırlandı ve Berk Can tarafından gözden geçirildi. 162 bağlantının 141'i 1–2 puanlı yargıdır; 21 güçlü bağlantının her biri için kaynak gösterildi, ikisi "tartışmalı" ya da "zayıf" işaretli. Uzman paneli henüz kurulmadı; kurulduğunda (ilk tur 6–8 kişi) bu tabloyu bağımsız olarak dolduracak.
 - **Sıra yargılara duyarlı, ilk dört değil.** Yalnız güçlü bağlarla sıra değişiyor, ilk dörtteki dört sorun değişmiyor. Beşinci sıra sınırda.
 - **Kutuplaşma kanıtı** karşılaştırmalı çalışmalar, bir Türkiye vaka incelemesi ve kuramsal bir modele dayanır; Türkiye'ye özgü nedensel tahmin değildir.
 - **Açık skoru:** Plan hedefi varsa %70 plan, %30 ülke karşılaştırması; yoksa yalnız ülke karşılaştırması. Bazı plan tablolarının başlığı "hedef", dipnotu "tahmin" der; nitelik tablo başlığından okundu. Ar-Ge ve imalat satırlarında başlangıç ve gerçekleşme aynı seriden (Dünya Bankası).
 - **Aday maddeler** (medya, tartışma kültürü) sıralamada kalır, sezon konusu olmaz.
 - **DEMATEL doğrusal bir yapısal modeldir:** eşik etkileri, zamanlama ve etkileşimler yoktur; sıralama "yapısal konum"dur, dinamik bir tahmin değildir.
-- Videoda "ilk turu başlatıyoruz" deniyor; uzman paneli henüz kurulmadı, başvurular açık. Kurulduğunda bu sayfada duyurulacak. Durum: [Nerede duruyoruz?](/nerede-duruyoruz/)
+- Videoda "ilk turu başlatıyoruz" deniyor; uzman paneli henüz kurulmadı, başvurular açık. Kurulduğunda bu sayfada duyurulacak. Durum: Nerede duruyoruz?
 
 ## Düzeltmeler
 
