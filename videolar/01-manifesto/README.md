@@ -41,7 +41,7 @@ Bilmediğimiz bir çalışma varsa yazın; buraya ekleyelim.
 
 ## Sınırlılıklar
 
-- **Nasıl yapıldı:** Kaynak tarama, veri işleme ve görsellerin kodu yapay zekâ araçları desteğiyle yapıldı. Rakamlar, sayfadaki tabloda kaynaklarına karşı kontrol edildi; ayrı kaynak testi 03. videodan itibaren uygulanıyor. Seslendirme, Berk Can'ın sesinden (ses örneği) yapay zekâyla üretildi. Uzman okuması: henüz yok. Ayrıntı: [Nerede duruyoruz?](/nerede-duruyoruz/) Görüntüler koddan çizilmiştir; video, gerçek kamera görüntüsü içermez.
+- **Nasıl yapıldı:** Kaynak tarama, veri işleme ve görsellerin kodu yapay zekâ araçları desteğiyle yapıldı. Rakamlar, sayfadaki tabloda kaynaklarına karşı kontrol edildi; ayrı kaynak testi 03. videodan itibaren uygulanıyor. Seslendirme, Berk Can'ın sesinden (ses örneği) yapay zekâyla üretildi. Uzman okuması: henüz yok. Ayrıntı: Nerede duruyoruz? Görüntüler koddan çizilmiştir; video, gerçek kamera görüntüsü içermez.
 - Videoda anlatılan uzman okuması henüz başlamadı; uzman ağı kuruluyor. Bu video uzman okumasından geçmedi.
 - Videodaki Resmî Gazete künyesi taranmış bir görüntü değil, **temsilî yeniden çizimdir**.
 - Yol haritası bölümündeki sorun listesi, ilişki matrisi ve sıralama çubukları **temsilîdir**; gerçek sonuç değildir.

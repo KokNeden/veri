@@ -44,13 +44,13 @@ Erişim tarihi: 26–27.09.2026.
 
 ## Sınırlılıklar
 
-- **Nasıl yapıldı:** Kaynak tarama, veri işleme ve görsellerin kodu yapay zekâ araçları desteğiyle yapıldı. Metindeki her iddia, yazarın notlarını görmeden, ayrı bir yapay zekâ denetimiyle ham kaynağa karşı sınandı (kaynak testi); bulguları Berk Can inceledi. Seslendirme, Berk Can'ın sesinden (ses örneği) yapay zekâyla üretildi. Uzman okuması: henüz yok. Ayrıntı: [Nerede duruyoruz?](/nerede-duruyoruz/)
+- **Nasıl yapıldı:** Kaynak tarama, veri işleme ve görsellerin kodu yapay zekâ araçları desteğiyle yapıldı. Metindeki her iddia, yazarın notlarını görmeden, ayrı bir yapay zekâ denetimiyle ham kaynağa karşı sınandı (kaynak testi); bulguları Berk Can inceledi. Seslendirme, Berk Can'ın sesinden (ses örneği) yapay zekâyla üretildi. Uzman okuması: henüz yok. Ayrıntı: Nerede duruyoruz?
 - **Tablo 30** önlemlerin *sayısını* ölçer, ağırlığını değil; IV. Plan bu çekinceyi kendisi yazar.
 - **Hedef ve öngörü:** Planlar enflasyon ve bazı başka göstergeler için sayıyı kimi zaman "hedef", kimi zaman "tahmin" diye yazar. Videoda ve tabloda bu ayrım gözetildi; `plan-hedefleri.csv` dosyasında `hedef_degeri` sütunu planın yazdığı sayıdır, niteliği `gosterge` ve `alinti` sütunlarından okunmalıdır.
 - **Ölçü farkı:** Hedef ve gerçekleşme her zaman aynı ölçü değildir (VIII. Plan enflasyonu yıl sonu hedeflerken tabloda yalnız yıllık ortalama var; enerji hedefleri Dünya Bankası ölçüsüyle birebir aynı değildir). Aynı ölçünün olmadığı yer tabloda belirtildi.
 - **Ülke karşılaştırması** destekleyici bir ölçüttür. V-Dem uzman kodlamasına dayanır; uzun dönemlerde değerler sabit bloklar halinde gelir, dönem ortalaması kaba bir özettir.
 - **Toplumsal güven** ölçümü 1990'ların başında başlar; yalnız iki dönem görülebilir ("ölçüm sınırlı 2/2").
-- **Sanayi teknolojisi** için plan kanıtı zayıftır (imalat payı hedefleri kimi planda tuttu; III. Plan'ın itirafı ilk iki planın dönemi içindir); listeye çekinceyle alındı.
+- **Sanayi teknolojisi** için plan kanıtı zayıftır (imalat payı hedefleri kimi planda tuttu; III. Plan'ın tespiti ilk iki planın dönemi içindir); listeye çekinceyle alındı.
 - **Dış finansman bağımlılığı** listeye çekinceyle alındı: planlar cari denge için çoğunlukla hedef değil öngörü yazdı ve öngörülerin yarısı tuttu; kroniklik daha çok 1974'ten bu yana süren açıklara dayanır.
 - **Enerji:** X. Plan'ın "yerli kaynak" tanımı yurt dışındaki çıkarımları da içerir; Dünya Bankası ölçüsü içermez.
 - **Deprem:** 2002 sonrası değer, nüfus verisinin bittiği yıla göre 28,9 ile 31,9 arasında değişir.
