@@ -3,7 +3,7 @@
   "dosyalar": {
     "plan-hedefleri.csv": {
       "kaynak": "DPT/SBB Kalkınma Planları I–XII (Kaynaklar 1). Her satır plan metninden alıntıyla gösterilir.",
-      "not": "hedef_degeri planın yazdığı sayıdır; sayının hedef mi öngörü mü olduğu gosterge ve alinti sütunlarından okunmalıdır. Plan metinlerindeki OCR hataları alıntılarda korunmuştur.",
+      "not": "hedef_degeri planın yazdığı sayıdır; sayının hedef mi öngörü mü olduğu gosterge ve alinti sütunlarından okunmalıdır. Dikkat: X. ve XI. Planların 'Hedefler' başlıklı tablolarının dipnotu son yıl sütununu 'Plan tahminleri' diye tanımlar ve bu dipnot alıntılarda yok; gerçekleşmesi bulunan satırların niteliği plan-hedef-gerceklesme.csv'nin nitelik ve nitelik_kaynagi sütunlarındadır (01.10.2026). Plan metinlerindeki OCR hataları alıntılarda korunmuştur.",
       "sutunlar": {
         "sorun_id": "Sorun numarası (S01–S26; bkz. sorun-listesi.csv).",
         "plan_no": "Kalkınma planı numarası (1–12).",
@@ -31,7 +31,9 @@
         "gerceklesme": "Aynı yıl gerçekleşen değer (%).",
         "gerceklesme_olcusu": "Gerçekleşme için kullanılan ölçü.",
         "kaynak": "Gerçekleşmenin kaynağı.",
-        "not": "Ölçü farkı ve benzeri açıklamalar."
+        "not": "Ölçü farkı ve benzeri açıklamalar.",
+        "nitelik": "Planın kendi sözüyle sayının niteliği: hedef (plan metni 'hedef alınmıştır', 'hedeflenmektedir' ya da bir söz: 'inecek şekilde sürdürülecektir') ya da tahmin ('tahmin edilmektedir', 'is expected', tablo dipnotunda 'tahmin'). XI'de tablo dipnotu tahmin, metin 'yüzde 5 hedefine' der; metin esas alındı (01.10.2026).",
+        "nitelik_kaynagi": "Niteliğin dayandığı madde, tablo ve dipnot (PDF sayfası), birebir alıntıyla."
       }
     },
     "dunya-bankasi-secilmis.csv": {
@@ -112,9 +114,10 @@
         "kaynak": "Gerçekleşme değerinin kaynağı.",
         "not": "Ölçü farkı, ortalama ve işaret açıklamaları.",
         "alinti": "Gerçekleşmenin kaynağından kısa alıntı (tablo satırlarında sütun başlıkları parantez içinde).",
-        "nitelik": "Planın yazdığı sayının niteliği. hedef: planın koyduğu hedef; tahmin: planın tahmin, beklenti, projeksiyon ya da ihtiyaç tespiti olarak yazdığı sayı (fark öngörünün isabetini gösterir, 'hedef tuttu/tutmadı' diye okunmaz). Nitelik plan metnindeki tablo başlığından ve cümleden okunur."
+        "nitelik": "Planın yazdığı sayının niteliği. hedef: planın koyduğu hedef; tahmin: planın tahmin, beklenti, projeksiyon ya da ihtiyaç tespiti olarak yazdığı sayı; ongoru: plan metninin 'öngörülmektedir' ya da 'beklenmektedir' dediği sayı (tahmin ve ongoru satırlarında fark öngörünün isabetini gösterir, 'hedef tuttu/tutmadı' diye okunmaz). X. ve XI. Plan satırları 01.10.2026'da planın kendi sözüne göre yeniden sınıflandırıldı: bu planların 'Hedefler' başlıklı tablolarının dipnotu son yıl sütununu 'Plan tahminleri' diye tanımlar; sayı ancak plan metninde ya da X'in 'Program Hedefleri' listesinde de geçiyorsa hedef sayılır.",
+        "nitelik_kaynagi": "Niteliğin dayanağı: madde, tablo ve dipnot (PDF sayfası), birebir alıntıyla. X ve XI dışındaki planlarda 03-v1.2 sınıflaması korundu ve bu sütunda öyle yazılı."
       },
-      "aciklama": "Kalkınma planlarındaki sayısal hedefler ve aynı ya da yakın ölçüyle gerçekleşmeleri: 169 kayıt (eğitim, enerji, vergi, konut, sanayi, dış finansman, Ar-Ge, demografi, tarım ve su, medya, bölgesel, yerel yönetim, afet). 13 kayıt planın hedefi değil tahminidir (nitelik sütunu)."
+      "aciklama": "Kalkınma planlarındaki sayısal hedefler ve aynı ya da yakın ölçüyle gerçekleşmeleri: 169 kayıt (eğitim, enerji, vergi, konut, sanayi, dış finansman, Ar-Ge, demografi, tarım ve su, medya, bölgesel, yerel yönetim, afet). Nitelik (01.10.2026): 114 hedef, 53 tahmin, 2 öngörü (nitelik ve nitelik_kaynagi sütunları)."
     }
   }
 }
