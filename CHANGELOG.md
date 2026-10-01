@@ -2,6 +2,10 @@
 
 Her değişiklik burada. Biçim: tarih ve etiket başlığı, altında video klasörü başına bir satır. Veri düzeltmeleri ayrıca [DUZELTMELER.md](DUZELTMELER.md)'de.
 
+## 01.10.2026 · lisans
+
+- `README.md`: lisans bölümü sitedeki lisans sayfasıyla aynı hâle getirildi: veri CC BY 4.0, kod MIT, metinler CC BY-ND 4.0.
+
 ## 29.09.2026 · 05-v1.0
 
 - `05-kurallar-tarih`: ilk sürüm. Veri (V-Dem hukukun üstünlüğü ve tarafsız kamu yönetimi 1923–2025, mahkeme dava yükü 1967–2010, hâkim kurulu yapıları, AİHM kararları), sözlük ve kod.
