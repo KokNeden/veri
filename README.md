@@ -21,6 +21,7 @@ DUZELTMELER.md       yayından sonra düzeltilen her rakam, eski ve yeni haliyle
 | 02 | Yalnız ekonomi değil: güven, kutuplaşma, okuma kültürü | [`videolar/02-kapsam/`](videolar/02-kapsam/) |
 | 03 | Türkiye'nin 24 kronik sorunu: 12 kalkınma planı ne hedefledi, ne oldu? | [`videolar/03-kronik-sorunlar/`](videolar/03-kronik-sorunlar/) |
 | 04 | Türkiye'nin 24 kronik sorunundan hangisi kök neden? İlk sıralama | [`videolar/04-siralama/`](videolar/04-siralama/) |
+| 05 | Kurallar yazılı, sorun nerede? Türkiye'de yargı ve kamu yönetiminin 100 yılı | [`videolar/05-kurallar-tarih/`](videolar/05-kurallar-tarih/) |
 
 ## Kurallar
 

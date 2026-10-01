@@ -1,10 +1,10 @@
-plan_no,hedef_gostergesi,hedef_yili,hedef,gerceklesme,gerceklesme_olcusu,kaynak,not
-5,Fiyat artışları (enflasyon),1989,10,63.3,TÜFE yıllık ortalama (TEFE 63.9),TÜİK İstatistik Göstergeler 1923–2011 Tablo 17.15,Plan ölçü belirtmiyor; iki endeks de ~63
-6,GSMH zımni deflatörü artış hızı,1994,13.5,107.3,GSMH deflatörü yıllık,TÜİK İstatistik Göstergeler 1923–2011 Tablo 17.15,Aynı ölçü
-7,GSMH deflatörü artışı (6.0–8.1 aralığı),2000,8.1,50.9,GSMH deflatörü yıllık,TÜİK İstatistik Göstergeler 1923–2011 Tablo 17.15,Hedef aralığın üst ucu alındı
-8,TEFE yıllık artışı (2001 yıl sonu),2001,10,61.6,TEFE yıllık ortalama,TÜİK İstatistik Göstergeler 1923–2011 Tablo 17.15,Plan yıl sonu diyor; tabloda yalnız ortalama var (2001 krizi)
-8,TEFE yıllık artışı (2002 yıl sonu),2002,5,50.1,TEFE yıllık ortalama,TÜİK İstatistik Göstergeler 1923–2011 Tablo 17.15,Plan yıl sonu diyor; tabloda yalnız ortalama var
-9,TÜFE artışı (yıl sonu),2013,3.0,7.40,TÜFE Aralık yıllık değişim,TCMB Tüketici Fiyatları tablosu (TÜİK),Aynı ölçü
-10,TÜFE yıllık artışı (yıl sonu),2018,4.5,20.30,TÜFE Aralık yıllık değişim,TCMB Tüketici Fiyatları tablosu (TÜİK),Aynı ölçü; XI. Plan tablosu da 20.3 yazıyor
-11,TÜFE (yıl sonu),2023,5.0,64.77,TÜFE Aralık yıllık değişim,TCMB Tüketici Fiyatları tablosu (TÜİK),Aynı ölçü; XII. Plan tablosu 2023 tahmini 65.0
-12,TÜFE (yıl sonu),2028,4.7,,,,Dönem sürüyor (2025 yıl sonu 30.89)
+plan_no,hedef_gostergesi,hedef_yili,hedef,gerceklesme,gerceklesme_olcusu,kaynak,not,nitelik,nitelik_kaynagi
+5,Fiyat artışları (enflasyon),1989,10,63.3,TÜFE yıllık ortalama (TEFE 63.9),TÜİK İstatistik Göstergeler 1923–2011 Tablo 17.15,Plan ölçü belirtmiyor; iki endeks de ~63,hedef,V md. 139: 'fiyat artışları 1989'da yüzde 10 civarına inecek şekilde sürdürülecektir' (söz; 'hedef' sözcüğü geçmiyor)
+6,GSMH zımni deflatörü artış hızı,1994,13.5,107.3,GSMH deflatörü yıllık,TÜİK İstatistik Göstergeler 1923–2011 Tablo 17.15,Aynı ölçü,hedef,"VI md. 182: 'yüzde 13,5 dolayına indirilmesi hedef alınmıştır'"
+7,GSMH deflatörü artışı (6.0–8.1 aralığı),2000,8.1,50.9,GSMH deflatörü yıllık,TÜİK İstatistik Göstergeler 1923–2011 Tablo 17.15,Hedef aralığın üst ucu alındı,tahmin,"VII: 'Plan dönemi sonunda yüzde 6,0-8,1 aralığına gerileyeceği tahmin edilmektedir'"
+8,TEFE yıllık artışı (2001 yıl sonu),2001,10,61.6,TEFE yıllık ortalama,TÜİK İstatistik Göstergeler 1923–2011 Tablo 17.15,Plan yıl sonu diyor; tabloda yalnız ortalama var (2001 krizi),tahmin,VIII (PDF 44): 'TEFE yıllık artışının … 2001 yılı sonunda yüzde 10 … düzeyine düşeceği tahmin edilmektedir'; aynı paragrafta program 2002 sonunda 'tek haneli rakamlara düşürmeyi hedeflemektedir'
+8,TEFE yıllık artışı (2002 yıl sonu),2002,5,50.1,TEFE yıllık ortalama,TÜİK İstatistik Göstergeler 1923–2011 Tablo 17.15,Plan yıl sonu diyor; tabloda yalnız ortalama var,tahmin,VIII (PDF 44): '2002 yılı sonunda da yüzde 5 düzeyine düşeceği tahmin edilmektedir'; aynı paragrafta program 'tek haneli rakamlara düşürmeyi hedeflemektedir'
+9,TÜFE artışı (yıl sonu),2013,3.0,7.40,TÜFE Aralık yıllık değişim,TCMB Tüketici Fiyatları tablosu (TÜİK),Aynı ölçü,tahmin,IX (resmî İngilizce çeviri) md. 330 (PDF 66–67): 'the CPI increase is expected to decline to 3 per cent'; Table 6.2
+10,TÜFE yıllık artışı (yıl sonu),2018,4.5,20.30,TÜFE Aralık yıllık değişim,TCMB Tüketici Fiyatları tablosu (TÜİK),Aynı ölçü; XI. Plan tablosu da 20.3 yazıyor,hedef,"X md. 493 (PDF 81): 'yüzde 4,5'e indirilmesi hedeflenmektedir'; Tablo 13 'Enflasyon Gelişmeleri ve Tahminleri' dipnotu tahmin"
+11,TÜFE (yıl sonu),2023,5.0,64.77,TÜFE Aralık yıllık değişim,TCMB Tüketici Fiyatları tablosu (TÜİK),Aynı ölçü; XII. Plan tablosu 2023 tahmini 65.0,hedef,XI md. 179 (PDF 38): 'enflasyon yüzde 5 hedefine kademeli bir şekilde yakınsayacaktır'; Tablo 7 'Enflasyon Tahminleri' (PDF 49) dipnotu: '2023 yılı verisi On Birinci Kalkınma Planı tahminidir'
+12,TÜFE (yıl sonu),2028,4.7,,,,Dönem sürüyor (2025 yıl sonu 30.89),hedef,XII Tablo 7 (PDF 80) dipnotu: '2028 yılı verisi On İkinci Kalkınma Planı hedefidir'

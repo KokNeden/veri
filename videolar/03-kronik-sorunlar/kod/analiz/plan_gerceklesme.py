@@ -126,7 +126,7 @@ YAKINA_DUSUR = {
 }
 
 
-# Planın hedef değil tahmin, beklenti, projeksiyon ya da ihtiyaç tespiti olarak yazdığı satırlar.
+# Planın hedef değil tahmin, beklenti, projeksiyon ya da ihtiyaç tespiti olarak yazdığı satırlar (X ve XI dışı planlar).
 # Çıktıda nitelik = "tahmin"; sitede ayrı etiketle gösterilir (fark "hedef tuttu/tutmadı" diye okunmasın).
 TAHMIN = {
     (4, "S05", "Toplam doğurganlık oranı (uzun dönem)"): "uzun dönem projeksiyon varsayımı",
@@ -141,8 +141,77 @@ TAHMIN = {
     (6, "S18", "Birincil enerji talebi"): "talep tahmini",
     (8, "S18", "Birincil enerji tüketimi"): "tüketim projeksiyonu",
     (10, "S18", "Enerji ithalatı"): "ithalat projeksiyonu",
-    (10, "S22", "Cari işlemler dengesi / GSYH"): "makroekonomik projeksiyon",
+    # X cari (−5,2) buradan çıkarıldı: md. 476 "hedeflenmektedir" (01.10.2026). X ve XI satırları NITELIK_X_XI'den okunur.
 }
+
+
+# X. ve XI. Plan satırlarının niteliği, planın kendi sözüyle (hedef/tahmin düzeltmesi, 01.10.2026;
+# yonetim/raporlar/hedef-tahmin-taramasi-2026-10-01.md). X'in "Gelişmeler ve Hedefler" ve XI'in "… Hedefleri"
+# tablolarının dipnotu son yıl sütununu "Plan tahminleri" diye tanımlar; bu yüzden bir sayı ancak plan metninde
+# ("hedeflenmektedir", "üretilecektir") ya da X'in Öncelikli Dönüşüm Programlarının "Program Hedefleri" listesinde
+# geçiyorsa hedef sayılır. Metin "öngörülmektedir/beklenmektedir" diyorsa ongoru. Dipnotunda tahmin olmayan
+# "Hedefler" tablosu satırı hedef (başlık) sayılır. Sayfalar PDF sayfasıdır.
+D_X = "dipnot: '2013 ve 2018 yılı verileri Onuncu Kalkınma Planı tahminleridir'"
+D_XI = "dipnot: '2023 yılı verileri On Birinci Kalkınma Planı tahminleridir'"
+NITELIK_X_XI = {
+    (10, "S01", "Okul öncesi (4-5 yaş) brüt okullaşma oranı"): ("tahmin", f"X Tablo 2 (PDF 44), {D_X}"),
+    (10, "S02", "Gençlerde işsizlik oranı"): ("tahmin", f"X Tablo 6 (PDF 58), {D_X}"),
+    (10, "S04", "Kadın işgücüne katılma oranı"): ("hedef", "X Öncelikli Dönüşüm Programı, Program Hedefleri (PDF 176): 'yüzde 34,9 … yükseltilmesi'; Tablo 6 dipnotu tahmin"),
+    (10, "S05", "Toplam doğurganlık hızı"): ("tahmin", f"X Tablo 8 'Nüfus Gelişmeleri ve Tahminleri' (PDF 62), {D_X}; md. 350 yalnız nitel hedef ('yükseltilmesi hedeflenmektedir')"),
+    (10, "S08", "mahalli idare harcamalarının GSYH'ya oranı"): ("tahmin", f"X Tablo 36 (PDF 145), {D_X}"),
+    (10, "S08", "mahalli idare gelirlerinin GSYH'ya oranı"): ("tahmin", f"X Tablo 36 (PDF 145), {D_X}"),
+    (10, "S10", "Kayıt dışı istihdam oranı"): ("tahmin", f"X Tablo 6 (PDF 58), {D_X}. X'in kayıt dışılık hedefi başka ölçüde: 'Tarım dışı sektörlerde kayıt dışı istihdam oranının beş puan azaltılması' (Program Hedefleri, PDF 178); eylem planı (YPK 2015/3) %22 → 2018 %17; 2018 gerçekleşme %22,28 (TÜİK HİA, SGK derlemesi)"),
+    (10, "S13", "Arazi toplulaştırma (kümülatif)"): ("hedef", "X Tablo 24 'Gelişmeler ve Hedefler' (PDF 112); bu satırda tahmin dipnotu yok (dipnot 4 ve 5 başka satırlara bağlı)"),
+    (10, "S13", "İşletmeye açılan sulama alanı (net kümülatif, DSİ)"): ("hedef", "X Tablo 24 'Gelişmeler ve Hedefler' (PDF 112); bu satırda tahmin dipnotu yok"),
+    (10, "S14", "İmalat sanayii / GSYH (cari)"): ("tahmin", f"X Tablo 20 (PDF 101), {D_X}"),
+    (10, "S14", "Yüksek teknoloji sektörlerinin imalat ihracatındaki payı"): ("tahmin", f"X Tablo 20 (PDF 101), {D_X}"),
+    (10, "S14", "Ortanın üstü teknoloji sektörlerinin imalat ihracatındaki payı"): ("tahmin", f"X Tablo 20 (PDF 101), {D_X}"),
+    (10, "S15", "Ar-Ge harcaması / GSYH"): ("tahmin", f"X Tablo 19 (PDF 98), {D_X}"),
+    (10, "S15", "Yerli patent başvuru sayısı"): ("hedef", "X Tablo 22 'Patent Başvurularında Gelişmeler ve Hedefler' (PDF 107); dipnotta tahmin yok"),
+    (10, "S15", "TZE araştırmacı sayısı"): ("tahmin", f"X Tablo 19 (PDF 98), {D_X}"),
+    (10, "S17", "zorunlu deprem sigortasına dâhil konut ve işyeri sayısı"): ("tahmin", f"X Tablo 37 (PDF 152), {D_X}"),
+    (10, "S18", "Yenilenebilir kaynakların elektrik üretimindeki payı"): ("tahmin", f"X Tablo 25 (PDF 115), {D_X}"),
+    (10, "S18", "Enerji ithalatı"): ("tahmin", f"X Tablo 12 (PDF 79), {D_X}"),
+    (10, "S19", "işletmeye açılan sulama alanı (net kümülatif)"): ("hedef", "X Tablo 24 'Gelişmeler ve Hedefler' (PDF 112); bu satırda tahmin dipnotu yok"),
+    (10, "S19", "DSİ sulamalarında sulama oranı"): ("hedef", "X Öncelikli Dönüşüm Programı, Program Hedefleri (PDF 190): 'yüzde 68'e … çıkarılması'"),
+    (10, "S19", "DSİ sulamalarında sulama randımanı"): ("hedef", "X Öncelikli Dönüşüm Programı, Program Hedefleri (PDF 190): 'yüzde 50'ye çıkarılması'"),
+    (10, "S20", "en yüksek / en düşük gelirli bölge kişi başı gelir oranı"): ("tahmin", f"X Tablo 31 (PDF 135), {D_X}"),
+    (10, "S20", "5. ve 6. bölge illerinde teşvik belgeli yatırımın payı"): ("tahmin", f"X Tablo 31 (PDF 135), {D_X}"),
+    (10, "S21", "TÜFE yıllık artış hızı"): ("hedef", "X md. 493 (PDF 81): 'yüzde 4,5'e indirilmesi hedeflenmektedir'"),
+    (10, "S21", "TÜFE yıllık artışı (yıl sonu)"): ("hedef", "X md. 493 (PDF 81): 'yüzde 4,5'e indirilmesi hedeflenmektedir'; Tablo 13 'Enflasyon Gelişmeleri ve Tahminleri' dipnotu tahmin"),
+    (10, "S22", "Cari işlemler dengesi / GSYH"): ("hedef", "X md. 476 (PDF 79): 'yüzde 5,2'ye gerilemesi hedeflenmektedir'; Tablo 12 dipnotu tahmin"),
+    (11, "S01", "5 yaş net okullaşma oranı"): ("tahmin", f"XI Tablo 33 (PDF 137), {D_XI}"),
+    (11, "S01", "Okullaşma oranı, kadın (yükseköğrenim)"): ("tahmin", f"XI Tablo 36 (PDF 147), {D_XI}"),
+    (11, "S02", "İşsizlik oranı, genç nüfus"): ("tahmin", f"XI Tablo 34 (PDF 140), {D_XI}"),
+    (11, "S02", "Genç istihdam oranı (15-24 yaş)"): ("tahmin", f"XI Tablo 37 (PDF 153), {D_XI}"),
+    (11, "S04", "İşgücüne katılma oranı, kadın"): ("tahmin", f"XI Tablo 34 (PDF 140), {D_XI}"),
+    (11, "S04", "Kadın istihdam oranı"): ("tahmin", f"XI Tablo 36 (PDF 147), {D_XI}"),
+    (11, "S05", "Toplam doğurganlık hızı"): ("tahmin", f"XI Tablo 41 'Nüfus Hedefleri' (PDF 161), {D_XI}"),
+    (11, "S05", "Yaşlı nüfusun işgücüne katılma oranı"): ("tahmin", f"XI Tablo 41 (PDF 161), {D_XI}"),
+    (11, "S10", "Kayıt dışı istihdam oranı"): ("tahmin", f"XI Tablo 34 (PDF 140), {D_XI}; 28,5 metinde geçmiyor"),
+    (11, "S10", "Genel devlet gelirleri"): ("tahmin", f"XI Tablo 9 'Kamu Maliyesine İlişkin Hedefler' (PDF 56), {D_XI}"),
+    (11, "S13", "Tarım sektörü büyüme hızı"): ("ongoru", "XI md. 218 (PDF 41): 'yüzde 3,1 oranında büyümesi … beklenmektedir'"),
+    (11, "S13", "Tescili tamamlanan arazi toplulaştırma alanı"): ("tahmin", f"XI Tablo 19 (PDF 98), {D_XI}"),
+    (11, "S14", "İmalat sanayii / GSYH (cari)"): ("tahmin", f"XI Tablo 12 'İmalat Sanayiinde Hedefler' (PDF 63), {D_XI}"),
+    (11, "S14", "Orta-yüksek teknolojili sanayilerin imalat ihracatındaki payı"): ("tahmin", f"XI Tablo 12 (PDF 63), {D_XI}"),
+    (11, "S14", "Yüksek teknolojili sanayilerin imalat ihracatındaki payı"): ("tahmin", f"XI Tablo 12 (PDF 63), {D_XI}"),
+    (11, "S15", "Ar-Ge harcaması / GSYH"): ("tahmin", f"XI Tablo 23 'Bilim, Teknoloji ve Yenilik Hedefleri' (PDF 108), {D_XI}"),
+    (11, "S15", "TZE Ar-Ge personeli sayısı"): ("tahmin", f"XI Tablo 23 (PDF 108), {D_XI}"),
+    (11, "S15", "Yerli patent başvurularının toplam içindeki payı"): ("tahmin", f"XI Tablo 25 (PDF 113), {D_XI}"),
+    (11, "S16", "sosyal konut üretimi (plan dönemi)"): ("hedef", "XI md. 686.2 (PDF 167): '250 bin sosyal konut üretilecektir'"),
+    (11, "S16", "kentsel dönüşüm strateji belgesi hazırlanan il sayısı"): ("tahmin", f"XI Tablo 45 (PDF 169), {D_XI}"),
+    (11, "S17", "zorunlu deprem sigortasına dâhil konut ve işyeri sayısı"): ("tahmin", f"XI Tablo 49 (PDF 178), {D_XI}"),
+    (11, "S17", "risk azaltma planı hazırlanacak il sayısı"): ("tahmin", f"XI Tablo 49 (PDF 178), {D_XI}"),
+    (11, "S18", "Yerli kaynaklardan üretilen elektrik"): ("tahmin", f"XI Tablo 27 (PDF 120), {D_XI}"),
+    (11, "S18", "Yenilenebilir kaynakların elektrik üretimindeki payı"): ("tahmin", f"XI Tablo 27 (PDF 120), {D_XI}"),
+    (11, "S19", "sulama oranı"): ("tahmin", f"XI Tablo 19 (PDF 98), {D_XI}"),
+    (11, "S19", "içme suyu kayıp kaçak oranı"): ("tahmin", f"XI Tablo 46 (PDF 172), {D_XI}"),
+    (11, "S20", "en yüksek/en düşük gelirli bölge kişi başı gelir oranı"): ("tahmin", f"XI Tablo 42 'Bölgesel Gelişme Hedefleri' (PDF 164), {D_XI}; XII aynı 3,85'i 2028 hedefi olarak yazar"),
+    (11, "S21", "TÜFE (yıl sonu)"): ("hedef", "XI md. 179 (PDF 38): 'enflasyon yüzde 5 hedefine kademeli bir şekilde yakınsayacaktır'; Tablo 7 'Enflasyon Tahminleri' dipnotu: '2023 yılı verisi On Birinci Kalkınma Planı tahminidir'"),
+    (11, "S22", "Cari işlemler dengesi / GSYH"): ("ongoru", "XI md. 178 (PDF 38): 'yüzde 0,9 olarak gerçekleşmesi öngörülmektedir'; Tablo 6 dipnotu tahmin"),
+    (11, "S22", "Cari işlemler dengesi"): ("tahmin", f"XI Tablo 6 'Ödemeler Dengesine İlişkin Hedefler' (PDF 48), {D_XI}"),
+}
+ESKI_NITELIK = "X/XI dışı: 03-v1.2 sınıflaması (tablo başlığı ve cümle); 01.10.2026 düzeltmesinde yeniden sınanmadı"
 
 
 def anahtar_bul(tablo, plan, sorun, gosterge):
@@ -219,7 +288,17 @@ for dosya in sorted(glob.glob("veri/gerceklesme_arastirma_*.csv")):
         })
 for s_ in satirlar:
     s_.setdefault("alinti", "")
-    s_["nitelik"] = "tahmin" if anahtar_bul(TAHMIN, int(s_["plan_no"]), s_["sorun_id"], s_["gosterge"]) else "hedef"
+    plan_, sorun_ = int(s_["plan_no"]), s_["sorun_id"]
+    if plan_ in (10, 11):
+        # Tam eşleşme önce ("Cari işlemler dengesi" ile "Cari işlemler dengesi / GSYH" karışmasın).
+        nk = NITELIK_X_XI.get((plan_, sorun_, s_["gosterge"])) or anahtar_bul(NITELIK_X_XI, plan_, sorun_, s_["gosterge"])
+        if not nk:
+            raise SystemExit(f"X/XI satırının niteliği yazılmamış: {plan_} {sorun_} {s_['gosterge']}")
+        s_["nitelik"], s_["nitelik_kaynagi"] = nk
+    else:
+        neden = anahtar_bul(TAHMIN, plan_, sorun_, s_["gosterge"])
+        s_["nitelik"] = "tahmin" if neden else "hedef"
+        s_["nitelik_kaynagi"] = f"{ESKI_NITELIK} ({neden})" if neden else ESKI_NITELIK
 satirlar.sort(key=lambda r: (r["sorun_id"], int(r["plan_no"])))
 with open(CIKTI, "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=list(satirlar[0].keys()))
