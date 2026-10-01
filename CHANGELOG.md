@@ -2,11 +2,9 @@
 
 Her değişiklik burada. Biçim: tarih ve etiket başlığı, altında video klasörü başına bir satır. Veri düzeltmeleri ayrıca [DUZELTMELER.md](DUZELTMELER.md)'de.
 
-## 01.10.2026 · 03-v1.4 · 04-v1.1 · hedef/tahmin düzeltmesi
+## 01.10.2026 · 03-v1.4 · 04-v1.1
 
-- `03-kronik-sorunlar`: `veri/plan-hedef-gerceklesme.csv` X ve XI. Plan satırlarının `nitelik`'i planın kendi sözüne göre yeniden yazıldı (hedef / tahmin / ongoru; tablo dipnotları "Plan tahminleri"); iki ters etiketli cari denge satırı düzeltildi; yeni sütun `nitelik_kaynagi`. `veri/enflasyon-hedef-gerceklesme.csv`: `nitelik` ve `nitelik_kaynagi`. `veri/sozluk.json`, `kod/analiz/plan_gerceklesme.py`, `README.md` (Sınırlılıklar, Düzeltmeler, kaynaklar 12–13). Ayrıntı: [DUZELTMELER.md](DUZELTMELER.md).
-- `04-siralama`: `veri/plan-hedefleri-v0.2.csv`'ye `nitelik` sütunu; X enflasyon md. 491 → 493. Sıralama değişmedi. `kod/hesaplama/plan_hedefleri_03.py`, `README.md`.
-- `README.md`: video tablosuna 05 satırı (aktarım betiği tabloyu yeniledi).
+- `03-kronik-sorunlar`, `04-siralama`: nitelik ve nitelik_kaynagi sütunları eklendi; X ve XI tablolarındaki 'hedef' başlıklı sütunlar plan dipnotuna göre 'tahmin' olarak etiketlendi; sayılar değişmedi.
 
 ## 01.10.2026 · lisans
 
