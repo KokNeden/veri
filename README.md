@@ -35,6 +35,7 @@ DUZELTMELER.md       yayından sonra düzeltilen her rakam, eski ve yeni haliyle
 
 ## Lisans ve atıf
 
-- Veri ve metinler: [CC BY 4.0](LICENSE). Kaynak göstererek her amaçla kullanabilirsiniz: `Kök Neden, "<video başlığı>", kokneden.org, <yıl>. github.com/KokNeden/veri`
+- Veri: [CC BY 4.0](LICENSE). Kaynak göstererek her amaçla kullanabilirsiniz: `Kök Neden, "<video başlığı>", kokneden.org, <yıl>. github.com/KokNeden/veri`
 - Kod: [MIT](LICENSE-KOD).
+- Metinler (README'ler, kaynak listeleri, sitedeki sayfalar ve transkriptler): [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.tr). Kaynak göstererek olduğu gibi paylaşabilirsiniz; değiştirilmiş hâli yayımlanmaz. Ayrıntı: [kokneden.org/lisans](https://kokneden.org/lisans/).
 - Üçüncü taraf verilerin (TÜİK, Dünya Bankası, V-Dem, OECD…) kendi lisansları geçerlidir; her dosyanın kaynağında belirtilir.
