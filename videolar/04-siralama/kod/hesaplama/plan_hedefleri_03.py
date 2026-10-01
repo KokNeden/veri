@@ -6,7 +6,7 @@ bizim varsayımımızdı), S05 X (tablo "Nüfus Gelişmeleri ve Tahminleri"). Ar
 Başlangıç değeri planın kendi tablosundan (icerik/03-kronik-sorunlar/veri/plan_hedefleri_*.csv),
 gerçekleşme bir sonraki planın tablosundan ya da ham veriden (TÜİK, TCMB, Dünya Bankası).
 Gerçekleşme bir tahminse 'not' sütununda yazılır.
-Hedef/tahmin düzeltmesi (01.10.2026, yonetim/raporlar/hedef-tahmin-taramasi-2026-10-01.md Ek A): X. ve XI. Planların
+Nitelik (01.10.2026, yonetim/raporlar/hedef-tahmin-taramasi-2026-10-01.md Ek A): X. ve XI. Planların
 "Hedefler" başlıklı tablolarının dipnotu son yıl sütununu "Plan tahminleri" diye tanımlar. Sayılar ve sıralama
 değişmedi; 'nitelik' sütunu planın kendi sözünü yazar (hedef / tahmin / ongoru / beklenen).
 Çıktı: veri/plan_hedefleri.csv  (kokneden_siralama.calistir biçimi)

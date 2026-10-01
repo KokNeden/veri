@@ -145,7 +145,7 @@ TAHMIN = {
 }
 
 
-# X. ve XI. Plan satırlarının niteliği, planın kendi sözüyle (hedef/tahmin düzeltmesi, 01.10.2026;
+# X. ve XI. Plan satırlarının niteliği, planın kendi sözüyle (nitelik güncellemesi, 01.10.2026;
 # yonetim/raporlar/hedef-tahmin-taramasi-2026-10-01.md). X'in "Gelişmeler ve Hedefler" ve XI'in "… Hedefleri"
 # tablolarının dipnotu son yıl sütununu "Plan tahminleri" diye tanımlar; bu yüzden bir sayı ancak plan metninde
 # ("hedeflenmektedir", "üretilecektir") ya da X'in Öncelikli Dönüşüm Programlarının "Program Hedefleri" listesinde
@@ -211,7 +211,7 @@ NITELIK_X_XI = {
     (11, "S22", "Cari işlemler dengesi / GSYH"): ("ongoru", "XI md. 178 (PDF 38): 'yüzde 0,9 olarak gerçekleşmesi öngörülmektedir'; Tablo 6 dipnotu tahmin"),
     (11, "S22", "Cari işlemler dengesi"): ("tahmin", f"XI Tablo 6 'Ödemeler Dengesine İlişkin Hedefler' (PDF 48), {D_XI}"),
 }
-ESKI_NITELIK = "X/XI dışı: 03-v1.2 sınıflaması (tablo başlığı ve cümle); 01.10.2026 düzeltmesinde yeniden sınanmadı"
+ESKI_NITELIK = "X/XI dışı: 03-v1.2 sınıflaması (tablo başlığı ve cümle); 01.10.2026 güncellemesinde yeniden sınanmadı"
 
 
 def anahtar_bul(tablo, plan, sorun, gosterge):

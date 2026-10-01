@@ -49,7 +49,7 @@ Erişim tarihi: 26–27.09.2026 (12 ve 13: 01.10.2026).
 
 - **Nasıl yapıldı:** Kaynak tarama, veri işleme ve görsellerin kodu yapay zekâ araçları desteğiyle yapıldı. Metin taslaklarında da yapay zekâ araçlarından destek alındı; her cümleyi Berk Can okuyup onayladı. Metindeki her iddia, yazarın notlarını kanıt saymadan, ayrı bir yapay zekâ denetimiyle ham kaynağa karşı sınandı (kaynak testi); bulguları Berk Can inceledi. Seslendirme, Berk Can'ın sesinden (ses örneği) yapay zekâyla üretildi. Uzman okuması: henüz yok. Ayrıntı: Nerede duruyoruz?
 - **Tablo 30** önlemlerin *sayısını* ölçer, ağırlığını değil; IV. Plan bu çekinceyi kendisi yazar.
-- **Hedef ve tahmin:** X. ve XI. Planların tabloları başlıkta "hedefler" der, dipnotta aynı sütunu "Plan tahminleri" diye tanımlar; XII. Plan dipnotta "hedefleri" der. Bu yüzden X ve XI'den bir sayıyı ancak plan metninde ("hedeflenmektedir") ya da X'in "Program Hedefleri" listesinde de geçiyorsa hedef diye anıyoruz. Videonun ilk sürümünde bu sayıların bir kısmı "hedef" diye anıldı; düzeltme: 1 Ekim 2026 (aşağıda Düzeltmeler). `plan-hedef-gerceklesme.csv` ve `enflasyon-hedef-gerceklesme.csv` dosyalarındaki `nitelik` sütunu planın sözüne göre güncellendi; dayanağı `nitelik_kaynagi` sütununda. `plan-hedefleri.csv` dosyasında `hedef_degeri` planın yazdığı sayıdır; alıntılarda tablo dipnotu yoktur, niteliği gerçekleşme dosyasından ya da planın kendisinden okunmalıdır.
+- **Hedef ve tahmin:** X. ve XI. Planların tabloları başlıkta "hedefler" der, dipnotta aynı sütunu "Plan tahminleri" diye tanımlar; XII. Plan dipnotta "hedefleri" der. Bu yüzden X ve XI'den bir sayıyı ancak plan metninde ("hedeflenmektedir") ya da X'in "Program Hedefleri" listesinde de geçiyorsa hedef diye anıyoruz. `plan-hedef-gerceklesme.csv` ve `enflasyon-hedef-gerceklesme.csv` dosyalarındaki `nitelik` sütunu planın sözünü yazar; dayanağı `nitelik_kaynagi` sütunundadır. `plan-hedefleri.csv` dosyasında `hedef_degeri` planın yazdığı sayıdır; alıntılarda tablo dipnotu yoktur, niteliği gerçekleşme dosyasından ya da planın kendisinden okunmalıdır.
 - **Kayıt dışılık:** X. Plan'ın hedefi toplam oran değil, tarım dışı orandır; yılı ve başlangıcı plan metninde değil, Yüksek Planlama Kurulu kararıyla (2015/3) yürürlüğe giren eylem planındadır. Plan programları kendini "rehber niteliğinde" diye tanımlar (md. 1127). VIII, IX ve XI. Planlarda kayıt dışılık için hedef nitelikli bir sayı yoktur; XI'in %28,5'i (2023) tabloda tahmindir ve oran 2023'te %26,1'e inmiştir. Hedef yılından sonra tarım dışı oran düştü: 2021'de %17,5. Bu düşüş pandemi yıllarına ve TÜİK'in 2021 yöntem değişikliğine denk gelir; nedeni bu çalışmada incelenmedi.
 - **Ölçü farkı:** Hedef ve gerçekleşme her zaman aynı ölçü değildir (VIII. Plan enflasyonu yıl sonu hedeflerken tabloda yalnız yıllık ortalama var; enerji hedefleri Dünya Bankası ölçüsüyle birebir aynı değildir). Aynı ölçünün olmadığı yer tabloda belirtildi.
 - **Ülke karşılaştırması** destekleyici bir ölçüttür. V-Dem uzman kodlamasına dayanır; uzun dönemlerde değerler sabit bloklar halinde gelir, dönem ortalaması kaba bir özettir.
@@ -63,25 +63,7 @@ Erişim tarihi: 26–27.09.2026 (12 ve 13: 01.10.2026).
 
 ## Düzeltmeler
 
-**1 Ekim 2026 · hedef mi, tahmin mi?** Kendi denetimimizde (Terazi) bulundu. X. ve XI. Kalkınma Planlarının "Hedefler" başlıklı tabloları, son yıl sütununu dipnotta "Plan tahminleri" diye tanımlıyor[^d1]. Videonun ilk sürümü bu sayıların bir kısmını "hedef" diye andı. Video bu yüzden yeniden seslendiriliyor; yeni sürüm yüklenince bu sayfadaki transkript ve altyazı da yenilenecek. Değişen cümleler:
-
-| Videonun ilk sürümünde | Doğrusu (yeni sürüm) | Kaynak |
-|---|---|---|
-| "Ar-Ge harcaması için altı plan üst üste hedef koydu … Altısında da tutmadı." | Altı plan bir sayı yazdı: dördü hedef (VI–IX), son ikisi (X ve XI, %1,8) tahmin. Hiçbirine ulaşılmadı. | [^d2] |
-| "En yakın gelinen yıl 2023: hedef yüzde 1,8" | XI'in 2023 tahmini yüzde 1,8 | [^d2] |
-| "Gelir farkını 2023'te 3,85 kata indirme hedefi … tutmadı; aynı hedef yeniden kondu." | XI 3,85'i 2023 için öngördü (tahmin); XII 2023 farkını 4,30 kat olarak tahmin etti ve 3,85'i 2028 hedefi olarak yazdı. | [^d3] |
-| "Kayıp ve kaçak için 2023 hedefi yüzde 25'ti" | XI 2023'te yüzde 25 öngördü (tahmin); XII'nin tahmini yüzde 31. | [^d3] |
-| "On Birinci Plan … hedefi 2023'e taşıdı. On İkinci Plan da 2028'e." (kadın iş gücü) | XI 2023 için yüzde 38,5 öngördü; XII 2028 için yüzde 40,1'i hedef olarak koydu. | [^d3] |
-| "2023 için hedef kadın başına 2,15 çocuktu." | XI'in 2023 tahmini 2,15 çocuktu. | [^d3] |
-| "Onuncu Plan 2018 için kayıt dışı istihdamı yüzde 30'a indirmeyi hedefledi. On Birinci Plan 2018'i yüzde 33,4 olarak yazdı." | %30 tahmindi. X'in hedefi başka bir ölçüde: tarım dışı kayıt dışı istihdamı 2018'e kadar %22'den %17'ye indirmek (program ve eylem planı); 2018'de %22,3. | [^d4] |
-| "Yenilenebilir kaynaklardan elektrik üretimi hedefleri son iki planda tuttu." | Yenilenebilir kaynakların elektrik üretimindeki payı son iki planın tahminlerini aştı. | [^d3] |
-
-Yeni sürümde ekranlar da (enflasyon, Ar-Ge, bölgesel ve su kartları, kadın iş gücü, kayıt dışılık) aynı dile çekiliyor; Shorts'taki Ar-Ge cümlesi "altı plan üst üste bir sayı yazdı; hiçbirine ulaşılmadı" oluyor. Listedeki 24 sorun değişmedi. Bu sayfada rakam satırları, "Hedef ve tahmin" sınırlılığı (eski metni: "Videoda ve tabloda bu ayrım gözetildi") ve veri dosyalarının `nitelik` sütunu düzeltildi; `plan-hedef-gerceklesme.csv`'de X cari denge hedef, XI cari denge öngörü olarak düzeltildi (iki satır ters etiketliydi).
-
-[^d1]: X. Plan, örn. Tablo 6 (PDF 58): "2013 ve 2018 yılı verileri Onuncu Kalkınma Planı tahminleridir."; XI. Plan, örn. Tablo 42 (PDF 164): "2023 yılı verileri On Birinci Kalkınma Planı tahminleridir."; XII. Plan, örn. Tablo 52 (PDF 229): "… 2028 yılı verileri On İkinci Kalkınma Planı hedefleridir."
-[^d2]: X. Plan Tablo 19 (PDF 98) ve XI. Plan Tablo 23 (PDF 108), dipnot "tahminleridir"; VI–IX için plan metinleri (VI PDF 324, VII PDF 87, VIII PDF 135, IX Table 6.8 "R&D Targets").
-[^d3]: XI. Plan Tablo 42 (PDF 164), 46 (PDF 172), 34 (PDF 140), 41 (PDF 161), 27 (PDF 120); X. Plan Tablo 25 (PDF 115): hepsinde dipnot "tahminleridir". XII. Plan Tablo 52 (PDF 229) ve Tablo 36 (PDF 175): 2028 "hedefleridir".
-[^d4]: X. Plan Tablo 6 (PDF 58, dipnot "tahminleridir") ve Kayıt Dışı Ekonominin Azaltılması Programı, Program Hedefleri (PDF 178); eylem planı (YPK 2015/3), s. 2; TÜİK HİA (Kaynaklar 12, 13).
+Henüz düzeltme yok. Her düzeltme bu bölüme tarihiyle, neyin değiştiğiyle ve (izin verilirse) bildirenin adıyla eklenir.
 
 ---
 Veri: [CC BY 4.0](../../LICENSE) · Kod: [MIT](../../LICENSE-KOD) · Bu klasör `node yonetim/acik-veri.mjs 03` ile üretilir; elle düzenlenmez.

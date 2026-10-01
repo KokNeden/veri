@@ -1,6 +1,6 @@
 # 04 · Türkiye'nin 24 kronik sorunundan hangisi kök neden? İlk sıralama
 
-Video ve sayfası yakında yayında. · Sürüm: v1.1 (sıralama v0.2) · Güncelleme: 1 Ekim 2026
+Video ve sayfası yakında yayında. · Sürüm: v1.0 (sıralama v0.2) · Güncelleme: 1 Ekim 2026
 
 ## Özet
 
@@ -43,24 +43,14 @@ Erişim tarihi: 27.09.2026.
 - **Puanlar yargıdır.** Matrisin ilk taslağı yapay zekâ destekli bir literatür taramasıyla hazırlandı ve Berk Can tarafından gözden geçirildi. 162 bağlantının 141'i 1–2 puanlı yargıdır; 21 güçlü bağlantının her biri için kaynak gösterildi, ikisi "tartışmalı" ya da "zayıf" işaretli. Uzman paneli henüz kurulmadı; kurulduğunda (ilk tur 6–8 kişi) bu tabloyu bağımsız olarak dolduracak.
 - **Sıra yargılara duyarlı, ilk dört değil.** Yalnız güçlü bağlarla sıra değişiyor, ilk dörtteki dört sorun değişmiyor. Beşinci sıra sınırda.
 - **Kutuplaşma kanıtı** karşılaştırmalı çalışmalar, bir Türkiye vaka incelemesi ve kuramsal bir modele dayanır; Türkiye'ye özgü nedensel tahmin değildir.
-- **Açık skoru:** Planda sayı varsa %70 plan, %30 ülke karşılaştırması; yoksa yalnız ülke karşılaştırması. X. ve XI. Planların tablolarının başlığı "hedef", dipnotu "tahmin" der; sıralamada sayı tablo başlığından alındı ve videoda "hedef" diye anıldı. Planın kendi sözüyle 23 sayının 10'u hedef, 11'i tahmin, 1'i öngörü, 1'i "beklenen" (`nitelik` sütunu). Açık skoru planın yazdığı sayıya olan uzaklığı ölçtüğü için nitelik sıralamayı değiştirmez. Ar-Ge ve imalat satırlarında başlangıç ve gerçekleşme aynı seriden (Dünya Bankası).
+- **Açık skoru:** Planda sayı varsa %70 plan, %30 ülke karşılaştırması; yoksa yalnız ülke karşılaştırması. X. ve XI. Planların tablolarının başlığı "hedef", dipnotu "tahmin" der; sıralamada sayı tablo başlığından alındı. Videoda "hedef" diye anılan sayıların bir kısmı (Ar-Ge örneğindeki Onuncu Plan'ın %1,8'i dahil) planın dipnotunda tahmin olarak tanımlanır; ayrım bu sayfadaki tabloda ve veri dosyasında gösterilmiştir. Planın kendi sözüyle 23 sayının 10'u hedef, 11'i tahmin, 1'i öngörü, 1'i "beklenen" (`nitelik` sütunu). Açık skoru planın yazdığı sayıya olan uzaklığı ölçtüğü için nitelik sıralamayı değiştirmez. Ar-Ge ve imalat satırlarında başlangıç ve gerçekleşme aynı seriden (Dünya Bankası).
 - **Aday maddeler** (medya, tartışma kültürü) sıralamada kalır, sezon konusu olmaz.
 - **DEMATEL doğrusal bir yapısal modeldir:** eşik etkileri, zamanlama ve etkileşimler yoktur; sıralama "yapısal konum"dur, dinamik bir tahmin değildir.
 - Videoda "ilk turu başlatıyoruz" deniyor; uzman paneli henüz kurulmadı, başvurular açık. Kurulduğunda bu sayfada duyurulacak. Durum: Nerede duruyoruz?
 
 ## Düzeltmeler
 
-**1 Ekim 2026 · hedef mi, tahmin mi?** Kendi denetimimizde (Terazi) bulundu. Video değişmedi; düzeltme bu sayfada, video açıklamasında ve açık veride.
-
-| Videoda söylenen | Doğrusu | Kaynak |
-|---|---|---|
-| "Planların kendisinin 'hedef' dediği 23 sayıyı gerçekleşmeyle karşılaştırdık." (2:25) | 23 sayının hepsini planlar hedef tablolarında ya da metninde yazıyor; ama planın kendi sözüyle 10'u hedef, 11'i tahmin, 1'i öngörü, 1'i "beklenen". X. ve XI. Planların "Hedefler" başlıklı tabloları, son yıl sütununu dipnotta "Plan tahminleri" diye tanımlıyor. | [^d1] |
-| "Onuncu Plan, Ar-Ge harcamasını 2018'de milli gelirin yüzde 1,8'ine çıkarmayı hedefledi … Hedefe giden yolun yaklaşık yarısı yürünmüş." Ekranda: "hedef %1,8". | Onuncu Plan hedef tablosunda 2018 için yüzde 1,8 yazdı; tablonun dipnotu bu sayıyı Plan tahmini diye tanımlıyor. O sayıya giden yolun yaklaşık yarısı yürünmüş. | [^d2] |
-
-Sıralama değişmedi: açık skoru planın yazdığı sayıya olan uzaklığı ölçer, sayının nitelik etiketini kullanmaz. Bu sayfada kaynak, rakam ve veri satırları düzeltildi; `plan-hedefleri-v0.2.csv`'ye `nitelik` sütunu eklendi ve X. Plan enflasyon satırının madde numarası düzeltildi (md. 491 değil, md. 493).
-
-[^d1]: Örn. X. Plan Tablo 6 (PDF 58): "2013 ve 2018 yılı verileri Onuncu Kalkınma Planı tahminleridir."; XI. Plan Tablo 23 (PDF 108): "2023 yılı verileri On Birinci Kalkınma Planı tahminleridir." Hedef olanlar plan metninde de geçiyor (örn. X md. 493 enflasyon, md. 476 cari açık) ya da X'in "Program Hedefleri" listesinde (kadın iş gücü, yerli enerji payı). Satır satır: `plan-hedefleri-v0.2.csv`, `nitelik` sütunu.
-[^d2]: X. Plan Tablo 19 "Ar-Ge ve Yenilik Alanında Gelişmeler ve Hedefler" (PDF 98): "2013 ve 2018 yılı verileri Onuncu Kalkınma Planı tahminleridir."
+Henüz düzeltme yok. Her düzeltme bu bölüme tarihiyle, neyin değiştiğiyle ve (izin verilirse) bildirenin adıyla eklenir.
 
 ---
 Veri: [CC BY 4.0](../../LICENSE) · Kod: [MIT](../../LICENSE-KOD) · Bu klasör `node yonetim/acik-veri.mjs 04` ile üretilir; elle düzenlenmez.
