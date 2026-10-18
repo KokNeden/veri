@@ -53,4 +53,4 @@ Erişim tarihi: 21–28.09.2026. Ham kaynakların kopyaları çalışma arşivin
 Henüz düzeltme yok. Her düzeltme bu bölüme tarihiyle, neyin değiştiğiyle ve (izin verilirse) bildirenin adıyla eklenir.
 
 ---
-Veri: [CC BY 4.0](../../LICENSE) · Kod: [MIT](../../LICENSE-KOD) · Bu klasör `node yonetim/acik-veri.mjs 05` ile üretilir; elle düzenlenmez.
+Veri: [CC BY 4.0](../../LICENSE); `vdem-hukuk-kamu-1923-2025.csv` V-Dem türevi olduğu için [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.tr) · Kod: [MIT](../../LICENSE-KOD) · Bu klasör `node yonetim/acik-veri.mjs 05` ile üretilir; elle düzenlenmez.

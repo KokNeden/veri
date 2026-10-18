@@ -15,7 +15,7 @@ Bir soruna ne zaman "kronik" denir? Bu videoda üç koşul koyduk: sorun Cumhuri
 - [plan-hedef-gerceklesme.csv](veri/plan-hedef-gerceklesme.csv): Gerçekleşmesi aynı ya da yakın ölçüyle bulunan 169 plan sayısı; `nitelik` (hedef, tahmin, öngörü) ve dayanağı (`nitelik_kaynagi`).
 - [dunya-bankasi-secilmis.csv](veri/dunya-bankasi-secilmis.csv): Videoda kullanılan Dünya Bankası serileri, Türkiye ve OECD ortancası (Türkiye hariç).
 - [vdem-donem-karsilastirmasi.csv](veri/vdem-donem-karsilastirmasi.csv): V-Dem göstergelerinin dört dönem ortalaması: Türkiye, karşılaştırma seti ve OECD ortancası.
-- [deprem-olumleri.csv](veri/deprem-olumleri.csv): Deprem ölümleri, yılda milyon kişi başına, dört dönem.
+- `deprem-olumleri.csv` (bu depoda yok): Deprem ölümleri, yılda milyon kişi başına, dört dönem. Kaynağı EM-DAT (CRED / UCLouvain); EM-DAT kullanım şartları verinin ve ondan türetilen veri tabanlarının yeniden dağıtımını yasaklar. Veri kaynağından alınabilir: https://www.emdat.be/ (ücretsiz kayıtla; Our World in Data işlemesi: https://ourworldindata.org/natural-disasters).
 - [beyin-gocu.csv](veri/beyin-gocu.csv): Yükseköğrenimli göç oranı ve seçicilik, 1980–2010.
 - [sorun-listesi.csv](veri/sorun-listesi.csv): Sorun listesi (sütun, ad, ana ölçüm).
 
@@ -45,6 +45,8 @@ Kod, Kök Neden'in çalışma klasörü düzenine göre yazıldı; ham verileri 
 
 Erişim tarihi: 26–27.09.2026 (12 ve 13: 01.10.2026).
 
+**Lisans notu:** `deprem-olumleri.csv` bu depoda yok. Kaynağı EM-DAT (CRED / UCLouvain); EM-DAT kullanım şartları verinin ve ondan türetilen veri tabanlarının yeniden dağıtımını yasaklar. Veri kaynağından alınabilir: https://www.emdat.be/ (ücretsiz kayıtla; Our World in Data işlemesi: https://ourworldindata.org/natural-disasters).
+
 ## Sınırlılıklar
 
 - **Nasıl yapıldı:** Kaynak tarama, veri işleme ve görsellerin kodu yapay zekâ araçları desteğiyle yapıldı. Metin taslaklarında da yapay zekâ araçlarından destek alındı; her cümleyi Berk Can okuyup onayladı. Metindeki her iddia, yazarın notlarını kanıt saymadan, ayrı bir yapay zekâ denetimiyle ham kaynağa karşı sınandı (kaynak testi); bulguları Berk Can inceledi. Seslendirme, Berk Can'ın sesinden (ses örneği) yapay zekâyla üretildi. Uzman okuması: henüz yok. Ayrıntı: Nerede duruyoruz?
@@ -66,4 +68,4 @@ Erişim tarihi: 26–27.09.2026 (12 ve 13: 01.10.2026).
 Henüz düzeltme yok. Her düzeltme bu bölüme tarihiyle, neyin değiştiğiyle ve (izin verilirse) bildirenin adıyla eklenir.
 
 ---
-Veri: [CC BY 4.0](../../LICENSE) · Kod: [MIT](../../LICENSE-KOD) · Bu klasör `node yonetim/acik-veri.mjs 03` ile üretilir; elle düzenlenmez.
+Veri: [CC BY 4.0](../../LICENSE); `vdem-donem-karsilastirmasi.csv` V-Dem türevi olduğu için [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.tr) · Kod: [MIT](../../LICENSE-KOD) · Bu klasör `node yonetim/acik-veri.mjs 03` ile üretilir; elle düzenlenmez.

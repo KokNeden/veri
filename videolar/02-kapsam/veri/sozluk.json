@@ -2,6 +2,7 @@
   "surum": 1,
   "dosyalar": {
     "guven-turkiye.csv": {
+      "acik_veride": "Bu depoda yok. Kaynağı World Values Survey / European Values Study (Integrated Values Surveys); WVS verisi yalnız kâr amacı gütmeyen kullanım için verilir ve veri dosyaları yeniden dağıtılmaz. Veri kaynağından alınabilir: https://ourworldindata.org/grapher/self-reported-trust-attitudes.",
       "kaynak": "Integrated Values Surveys (WVS + EVS), \"Most people can be trusted\"; Our World in Data işlemesi (Kaynaklar 1).",
       "sutunlar": {
         "dalga": "Araştırma dalgası numarası.",

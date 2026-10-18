@@ -62,6 +62,7 @@
       }
     },
     "deprem-olumleri.csv": {
+      "acik_veride": "Bu depoda yok. Kaynağı EM-DAT (CRED / UCLouvain); EM-DAT kullanım şartları verinin ve ondan türetilen veri tabanlarının yeniden dağıtımını yasaklar. Veri kaynağından alınabilir: https://www.emdat.be/ (ücretsiz kayıtla; Our World in Data işlemesi: https://ourworldindata.org/natural-disasters).",
       "kaynak": "EM-DAT (CRED / UCLouvain), Our World in Data işlemesi; nüfus Our World in Data (Kaynaklar 7).",
       "not": "2002 sonrası değer nüfus verisinin bittiği yıla göre 28,9 ile 31,9 arasında değişir.",
       "sutunlar": {

@@ -28,7 +28,7 @@ DUZELTMELER.md       yayından sonra düzeltilen her rakam, eski ve yeni haliyle
 - **Kaynak her satırda.** Her dosyanın kaynağı `sozluk.json`'da ya da README'sinde; plan hedefleri plan metninden alıntıyla verilir.
 - **Nitelik açık.** Planlardaki bir sayının *hedef* mi *tahmin* mi olduğu tablo başlığından okunur ve yazılır.
 - **Geçmiş silinmez.** Düzeltilen bir rakamın eski hali `DUZELTMELER.md`'de kalır; her video yayını bir etikettir (`04-v1.0`), o gün gösterilen veri o etikette durur.
-- **Girmeyenler:** Ham PDF'ler ve üçüncü tarafların tam veri setleri (yalnız bağlantısı verilir), ses dosyaları, kişisel veri.
+- **Girmeyenler:** Ham PDF'ler ve üçüncü tarafların tam veri setleri (yalnız bağlantısı verilir), lisansı yeniden dağıtıma izin vermeyen kaynaklardan türetilen dosyalar (yalnız bağlantı ve not), ses dosyaları, kişisel veri.
 
 ## Hata mı buldunuz?
 
@@ -39,4 +39,6 @@ DUZELTMELER.md       yayından sonra düzeltilen her rakam, eski ve yeni haliyle
 - Veri: [CC BY 4.0](LICENSE). Kaynak göstererek her amaçla kullanabilirsiniz: `Kök Neden, "<video başlığı>", kokneden.org, <yıl>. github.com/KokNeden/veri`
 - Kod: [MIT](LICENSE-KOD).
 - Metinler (README'ler, kaynak listeleri, sitedeki sayfalar ve transkriptler): [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/deed.tr). Kaynak göstererek olduğu gibi paylaşabilirsiniz; değiştirilmiş hâli yayımlanmaz. Ayrıntı: [kokneden.org/lisans](https://kokneden.org/lisans/).
+- V-Dem'den türetilen dosyalar V-Dem'in lisansıyla, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.tr) ile verilir (türevleri de aynı lisansla paylaşılır): `videolar/03-kronik-sorunlar/veri/vdem-donem-karsilastirmasi.csv`, `videolar/05-kurallar-tarih/veri/vdem-hukuk-kamu-1923-2025.csv`.
 - Üçüncü taraf verilerin (TÜİK, Dünya Bankası, V-Dem, OECD…) kendi lisansları geçerlidir; her dosyanın kaynağında belirtilir.
+- Kaynağının lisansı yeniden dağıtıma izin vermeyen veriler bu depoda yoktur; ilgili README'de kaynağın adresi ve nedeni yazılıdır.

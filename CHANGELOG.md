@@ -2,6 +2,13 @@
 
 Her değişiklik burada. Biçim: tarih ve etiket başlığı, altında video klasörü başına bir satır. Veri düzeltmeleri ayrıca [DUZELTMELER.md](DUZELTMELER.md)'de.
 
+## 18.10.2026 · lisans
+
+- `02-kapsam`: `veri/guven-turkiye.csv` kaldırıldı (World Values Survey verisi yeniden dağıtılamaz, yalnız kâr amacı gütmeyen kullanıma açık). README'de ve `veri/sozluk.json`'da kaynağın adresiyle not.
+- `03-kronik-sorunlar`: `veri/deprem-olumleri.csv` kaldırıldı (EM-DAT şartları verinin ve türevlerinin yeniden dağıtımını yasaklar). README'de ve `veri/sozluk.json`'da kaynağın adresiyle not.
+- `03-kronik-sorunlar`, `05-kurallar-tarih`: V-Dem türevi dosyaların lisansı CC BY-SA 4.0 olarak yazıldı (`vdem-donem-karsilastirmasi.csv`, `vdem-hukuk-kamu-1923-2025.csv`); sayılar değişmedi.
+- `README.md`: lisans bölümüne V-Dem satırı ve yeniden dağıtılamayan veriler kuralı.
+
 ## 01.10.2026 · 03-v1.4 · 04-v1.1
 
 - `03-kronik-sorunlar`, `04-siralama`: nitelik ve nitelik_kaynagi sütunları eklendi; X ve XI tablolarındaki 'hedef' başlıklı sütunlar plan dipnotuna göre 'tahmin' olarak etiketlendi; sayılar değişmedi.

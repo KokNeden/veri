@@ -10,7 +10,7 @@ Bu videoda bu konuların ölçülebildiğini üç örnekle gösteriyoruz: otuz y
 
 ## Veri dosyaları
 
-- [guven-turkiye.csv](veri/guven-turkiye.csv): "İnsanların çoğuna güvenilebilir" diyenlerin oranı, Türkiye, altı dalga.
+- `guven-turkiye.csv` (bu depoda yok): "İnsanların çoğuna güvenilebilir" diyenlerin oranı, Türkiye, altı dalga. Kaynağı World Values Survey / European Values Study (Integrated Values Surveys); WVS verisi yalnız kâr amacı gütmeyen kullanım için verilir ve veri dosyaları yeniden dağıtılmaz. Veri kaynağından alınabilir: https://ourworldindata.org/grapher/self-reported-trust-attitudes.
 - [sosyal-mesafe-2020.csv](veri/sosyal-mesafe-2020.csv): En uzak hissedilen parti taraftarlarıyla sosyal mesafe, dört ifade.
 - [yetiskin-okuma-becerisi.csv](veri/yetiskin-okuma-becerisi.csv): Türkiye ve OECD ortalaması, okuma becerisi puanı.
 
@@ -23,6 +23,8 @@ Sütunların anlamı ve her dosyanın kaynağı: [`veri/sozluk.json`](veri/sozlu
 3. OECD (2016), *Skills Matter: Further Results from the Survey of Adult Skills*, Türkiye ülke notu. Veri: 1 Nisan 2014 – 31 Mart 2015, 16–65 yaş, 5.277 yetişkin. [oecd.org (PDF)](https://www.oecd.org/content/dam/oecd/en/about/programmes/edu/piaac/country-specific-material/cycle-1/Turkiye-Country-Note-ENG.pdf)
 
 Erişim tarihi: 26.09.2026.
+
+**Lisans notu:** `guven-turkiye.csv` bu depoda yok. Kaynağı World Values Survey / European Values Study (Integrated Values Surveys); WVS verisi yalnız kâr amacı gütmeyen kullanım için verilir ve veri dosyaları yeniden dağıtılmaz. Veri kaynağından alınabilir: https://ourworldindata.org/grapher/self-reported-trust-attitudes.
 
 ## Sınırlılıklar
 
