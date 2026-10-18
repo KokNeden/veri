@@ -37,6 +37,8 @@ Kod, Kök Neden'in çalışma klasörü düzenine göre yazıldı; ham verileri 
 
 Erişim tarihi: 27.09.2026.
 
+**Lisans notu:** `acik-skorlari-v0.2.csv`: S17, S11, S01 satırlarında kaynağın ham değerleri (`tur`, `ortanca`) boştur; kaynakların (EM-DAT, World Values Survey, OECD PISA) lisansı yeniden dağıtıma izin vermez, satırın `not` sütununda kaynak adresi var. Skorlar kendi hesabımızdır ve yerindedir. `acik-skorlari-v0.2.csv`: S06, S09, S12, S24, S25, S26 satırlarındaki değerler V-Dem verisidir ve [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.tr) ile verilir.
+
 ## Sınırlılıklar
 
 - **Nasıl yapıldı:** Kaynak tarama, veri işleme ve görsellerin kodu yapay zekâ araçları desteğiyle yapıldı. Metin taslaklarında da yapay zekâ araçlarından destek alındı; her cümleyi Berk Can okuyup onayladı. Metindeki her iddia, yazarın notlarını kanıt saymadan, ayrı bir yapay zekâ denetimiyle ham kaynağa karşı sınandı (kaynak testi); bulguları Berk Can inceledi. Seslendirme, Berk Can'ın sesinden (ses örneği) yapay zekâyla üretildi. Uzman okuması: henüz yok. Ayrıntı: Nerede duruyoruz?

@@ -4,6 +4,7 @@ Her değişiklik burada. Biçim: tarih ve etiket başlığı, altında video kla
 
 ## 18.10.2026 · lisans
 
+- `04-siralama`: `veri/acik-skorlari-v0.2.csv` S17 (EM-DAT), S11 (World Values Survey) ve S01 (OECD PISA) satırlarında kaynağın ham değerleri (`tur`, `ortanca`) boşaltıldı, `not` sütununa kaynak adresi yazıldı; V-Dem satırlarına (S06, S09, S12, S24–S26) CC BY-SA 4.0 notu. Skorlar değişmedi. README'de lisans notu.
 - `02-kapsam`: `veri/guven-turkiye.csv` kaldırıldı (World Values Survey verisi yeniden dağıtılamaz, yalnız kâr amacı gütmeyen kullanıma açık). README'de ve `veri/sozluk.json`'da kaynağın adresiyle not.
 - `03-kronik-sorunlar`: `veri/deprem-olumleri.csv` kaldırıldı (EM-DAT şartları verinin ve türevlerinin yeniden dağıtımını yasaklar). README'de ve `veri/sozluk.json`'da kaynağın adresiyle not.
 - `03-kronik-sorunlar`, `05-kurallar-tarih`: V-Dem türevi dosyaların lisansı CC BY-SA 4.0 olarak yazıldı (`vdem-donem-karsilastirmasi.csv`, `vdem-hukuk-kamu-1923-2025.csv`); sayılar değişmedi.
